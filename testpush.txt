@@ -1,6 +1,0 @@
-test push
-push push
-p
-u
-s
-h
