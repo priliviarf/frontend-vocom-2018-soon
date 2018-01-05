@@ -1,22 +1,68 @@
 /* CSS Layouting ICPC*/
-.big-icpc {
-	display: grid;
-	grid-template-columns: 1fr 2fr 1.5fr;
-	grid-template-rows: 450px;
-	max-width: 1125px;
-	margin: 0 auto;
+#fourth-section h1.back-h1 {
+  font-family: 'Fira-Bold';
+  font-size: 14em;
+  left: 145%;
+  margin: 0 0 0 30%;
+  opacity: 0.05;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  text-overflow: clip;
+  white-space: nowrap;
 }
-.big-icpc div{
-	background-color: #3bbced;
-	padding: 25px;
+#fourth-section .text {
+  padding-right: 50px;
+  text-align: right;
+  width:350px;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  margin: 0;
+  z-index: 2;
 }
-.big-icpc div:nth-child(even){
-	background-color: #777;
+#fourth-section .content h1 {
+  line-height: 85%;
 }
-.big-icpc div h1{
-	padding-top: 50px;
+.sun {
+	width: 250px;
+  	position: absolute;
+  	top: 80px;
+  	left: 30px;
+}
+.sun-reg{
+  width: 106px;
+  position: absolute;
+  top: 12%;
+  left: 20%;
+  z-index: 1;
+  -webkit-animation: sun 5s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
+    animation: sun 5s linear 2s infinite alternate;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes sun {
+    0%   {left:50px;}
+    25%  {left:100px;}
+    50%  {left:150px;}
+    75%  {left:200px;}
+    100% {left:350px;}
 }
 
+/* Standard syntax */
+@keyframes sun {
+    0%   {left:50px;}
+    25%  {left:150px;}
+    50%  {left:200px;}
+    75%  {left:250px;}
+    100% {left:300px;}
+}
+#icpc-logo {
+    width: 250px;
+    position: absolute;
+    top: 60px;
+    right: 50px;
+}
 /* CSS Layouting semnas*/
 .big-semnas {
 	display: grid;
@@ -24,12 +70,6 @@
 	grid-template-rows: 330px;
 	max-width: 855px;
 	margin: 0 auto;
-}
-.big-semnas div{
-	background-color: #3bbced;
-}
-.big-semnas div:nth-child(even){
-	background-color: #777;
 }
 .three {
 	position: relative;
@@ -45,4 +85,31 @@
 }
 .four {
 	grid-column: 1/5;
+}
+/*styling balon*/
+.balon{
+	position: absolute;
+	margin-top: 50;
+	margin-left: 100px;
+	width: 75px;
+	height: 106px;
+	-webkit-animation: myfirst 5s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
+    animation: myfirst 5s linear 2s infinite alternate;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes myfirst {
+    0%   {top:0px;}
+    25%  {top:100px;}
+    50%  {top:200px;}
+    75%  {top:300px;}
+    100% {top:400px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {top:100px;}
+    25%  {top:150px;}
+    50%  {top:250px;}
+    75%  {top:350px;}
+    100% {top:400px;}
 }
