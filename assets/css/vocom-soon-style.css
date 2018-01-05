@@ -660,35 +660,60 @@ footer {
 #fifth-section {
   background-color: #95a5a6; }
 
-#hero-section .content {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  align-items: center;
-  flex-direction: column; }
-  #hero-section .content > img {
-    width: 15%; }
-  #hero-section .content .fle {
-    align-items: flex-end; }
-    #hero-section .content .fle figure {
-      position: relative;
-      width: 200px; }
-      #hero-section .content .fle figure .abs {
-        position: absolute;
-        top: 0;
-        left: 0; }
-      #hero-section .content .fle figure img {
-        width: 100%; }
-    #hero-section .content .fle h1 {
-      margin-left: -65px;
-      z-index: 10; }
+a > .fa-facebook-square:hover {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  color: #3b5999; }
+
+a > .fa-instagram:hover {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  color: #fb3958; }
+
+a > .fa-twitter:hover {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  color: #2ac6f7; }
+
+#hero-section {
+  background-image: url("../img/borobudur.png");
+  background-position: bottom left;
+  background-repeat: no-repeat; }
+  #hero-section .content {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    #hero-section .content > img {
+      width: 15%; }
+    #hero-section .content .fle {
+      align-items: flex-end; }
+      #hero-section .content .fle figure {
+        position: relative;
+        width: 200px; }
+        #hero-section .content .fle figure .abs {
+          position: absolute;
+          top: 0;
+          left: 0; }
+        #hero-section .content .fle figure img {
+          width: 100%; }
+      #hero-section .content .fle h1 {
+        margin-left: -65px;
+        z-index: 10; }
 
 .mo-plane {
   position: absolute;
   top: 25%;
-  left: -10%;
+  left: -5%;
   width: 60px;
   z-index: 20; }
 
@@ -713,7 +738,7 @@ footer {
     transform: rotate(359deg); } }
 @-webkit-keyframes goToRight {
   from {
-    left: -10%; }
+    left: -5%; }
   to {
     left: 100%; } }
 

@@ -210,9 +210,24 @@ footer {
 #fifth-section {
   background-color: $gray;
 }
+a>.fa-facebook-square:hover {
+  @include transition(0.3);
+  color: #3b5999;
+}
+a>.fa-instagram:hover {
+  @include transition(0.3);
+  color: #fb3958;
+}
+a>.fa-twitter:hover {
+  @include transition(0.3);
+  color: #2ac6f7;
+}
 // ===== hero section
 
 #hero-section {
+  background-image: url('../img/borobudur.png');
+  background-position: bottom left;
+  background-repeat: no-repeat;
 
   .content {
     @include flexbox();
@@ -251,7 +266,7 @@ footer {
 .mo-plane {
   position: absolute;
   top: 25%;
-  left: -10%;
+  left: -5%;
   width: 60px;
   z-index: 20;
 }
