@@ -109,6 +109,10 @@ li {
 .fle-end {
   align-items: flex-end;
 }
+.fle-center {
+  align-items: center;
+  justify-content: center;
+}
 // -------------------------------------- pages style
 header {
   padding: 30px;
@@ -158,6 +162,27 @@ footer {
     }
   }
 }
+// ---------------------- reset style
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  height: 6px;
+  width: 6px;
+  margin: -3px 0 0 -3px
+}
+#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span {
+  &:before {
+    background: none;
+    border: 1px solid $black;
+    content: '';
+    height: 18px;
+    left: -3px;
+    opacity: 0.5;
+    position: absolute;
+    border-radius: 100%;
+    top: -3px;
+    // transform: translate(-50%,-50%);
+    width: 18px;
+  }
+}
 #hero-section,#second-section,#third-section,#fourth-section,#fifth-section,#sixth-section {
   height: 100vh;
 
@@ -170,6 +195,7 @@ footer {
     position: absolute;
     top: 50%;
     transform: translate(-50%,-50%);
+    z-index: -1;
   }
 }
 #second-section {
@@ -184,9 +210,24 @@ footer {
 #fifth-section {
   background-color: $gray;
 }
+a>.fa-facebook-square:hover {
+  @include transition(0.3);
+  color: #3b5999;
+}
+a>.fa-instagram:hover {
+  @include transition(0.3);
+  color: #fb3958;
+}
+a>.fa-twitter:hover {
+  @include transition(0.3);
+  color: #2ac6f7;
+}
 // ===== hero section
 
 #hero-section {
+  background-image: url('../img/borobudur.png');
+  background-position: bottom left;
+  background-repeat: no-repeat;
 
   .content {
     @include flexbox();
@@ -225,10 +266,15 @@ footer {
 .mo-plane {
   position: absolute;
   top: 25%;
-  left: -10%;
+  left: -5%;
   width: 60px;
   z-index: 20;
 }
-
+// =============== sixth-section
+#sixth-section {
+  img {
+    width: 100px;
+  }
+}
 // animation
 @import "_keyframes";
