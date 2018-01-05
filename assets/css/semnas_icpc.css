@@ -1,0 +1,33 @@
+.big-semnas {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1.5fr;
+	grid-template-rows: 410px;
+	max-width: 1125px;
+	margin: 0 auto;
+}
+.big-semnas div{
+	padding: 25px;
+}
+.big-semnas div h1{
+	padding-top: 70px;
+}
+.one {
+	grid-column:1/2;
+	grid-row: 1/3;
+}
+.two {
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+.three {
+	position: relative;
+	grid-column: 3/4;
+	grid-row: 1/2;
+}
+.three img {
+	position: absolute;
+	bottom: 50px;
+}
+.four {
+	grid-column: 2/5;
+}
