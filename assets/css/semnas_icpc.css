@@ -2,7 +2,7 @@
 #fourth-section h1.back-h1 {
   font-family: 'Fira-Bold';
   font-size: 14em;
-  left: 145%;
+  left: 45%;
   margin: 0 0 0 30%;
   opacity: 0.05;
   position: absolute;
@@ -43,10 +43,10 @@
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes sun {
     0%   {left:50px;}
-    25%  {left:100px;}
-    50%  {left:150px;}
-    75%  {left:200px;}
-    100% {left:350px;}
+    25%  {left:150px;}
+    50%  {left:200px;}
+    75%  {left:250px;}
+    100% {left:300px;}
 }
 
 /* Standard syntax */
@@ -64,6 +64,20 @@
     right: 50px;
 }
 /* CSS Layouting semnas*/
+#fifth-section h1.back-h1 {
+  font-family: 'Fira-Bold';
+  font-size: 14em;
+  left: 20%;
+  margin: 0 0 0 30%;
+  opacity: 0.05;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  text-overflow: clip;
+  white-space: nowrap;
+}
+
 .big-semnas {
 	display: grid;
 	grid-template-columns: 4fr 3fr;
@@ -98,10 +112,10 @@
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes myfirst {
-    0%   {top:0px;}
-    25%  {top:100px;}
-    50%  {top:200px;}
-    75%  {top:300px;}
+    0%   {top:100px;}
+    25%  {top:150px;}
+    50%  {top:250px;}
+    75%  {top:350px;}
     100% {top:400px;}
 }
 
