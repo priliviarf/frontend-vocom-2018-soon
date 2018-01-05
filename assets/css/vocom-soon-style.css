@@ -6,6 +6,87 @@
 
 	For Vocomfest 2018 only. Not for shared or published by others.
 */
+@font-face {
+  font-family: 'Montserrat-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Fira-Black';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/FiraSans-Black.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Fira-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/FiraSans-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Fira-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/FiraSans-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Fira-Light';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/FiraSans-Light.ttf") format("truetype"); }
+.bla {
+  color: #000; }
+
+.gra {
+  color: #95a5a6; }
+
+.gre {
+  color: #acca48; }
+
+.wh {
+  color: #fff; }
+
+.ye {
+  color: #f0be07; }
+
+.smaller {
+  font-size: 0.8em; }
+
+.normal {
+  font-size: 1em; }
+
+.baby-big {
+  font-size: 1.2em; }
+
+.big {
+  font-size: 1.5em; }
+
+.more-big {
+  font-size: 2.5em; }
+
+.bigger {
+  font-size: 3em; }
+
+.fr-lig {
+  font-family: 'Fira-Light'; }
+
+.fr-reg {
+  font-family: 'Fira-Regular'; }
+
+.fr-bold {
+  font-family: 'Fira-Bold'; }
+
+.fr-bla {
+  font-family: 'Fira-black'; }
+
+.mt-reg {
+  font-family: 'Montserrat-Regular'; }
+
+.mt-bold {
+  font-family: 'Montserrat-Bold'; }
+
 .mg-5 {
   margin: 5px; }
 
@@ -465,5 +546,150 @@
 
 .pd-r-50 {
   padding-right: 50px; }
+
+body {
+  box-sizing: border-box;
+  font-family: 'Fira-Regular';
+  font-size: 16px;
+  margin: 0;
+  padding: 0; }
+
+ul {
+  padding: 0; }
+
+li {
+  list-style-type: none; }
+
+.fle {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
+.fle-end {
+  align-items: flex-end; }
+
+header {
+  padding: 30px;
+  position: fixed;
+  top: 0;
+  z-index: 30; }
+  header img {
+    margin-right: 10px;
+    width: 30px; }
+  header span {
+    font-family: 'Montserrat-Bold';
+    font-size: 1.2em; }
+
+footer {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  bottom: 0;
+  justify-content: space-between;
+  padding: 30px;
+  position: fixed;
+  width: 100vw; }
+  footer span {
+    font-family: 'Fira-Bold'; }
+  footer .fle-end {
+    display: flex; }
+  footer ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    margin: 0;
+    padding-left: 5px; }
+    footer ul li {
+      padding: 0 5px; }
+      footer ul li a {
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        color: #95a5a6; }
+
+#hero-section, #second-section, #third-section, #fourth-section, #fifth-section, #sixth-section {
+  height: 100vh; }
+  #hero-section h1.back-h1, #second-section h1.back-h1, #third-section h1.back-h1, #fourth-section h1.back-h1, #fifth-section h1.back-h1, #sixth-section h1.back-h1 {
+    font-family: 'Fira-Bold';
+    font-size: 14em;
+    left: 50%;
+    margin: 0 0 0 30%;
+    opacity: 0.05;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+
+#second-section {
+  background-color: #91c8ee; }
+
+#third-section {
+  background-color: #f3cb5a; }
+
+#fourth-section {
+  background-color: #a1ceb7; }
+
+#fifth-section {
+  background-color: #95a5a6; }
+
+#hero-section .content {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  #hero-section .content > img {
+    width: 15%; }
+  #hero-section .content .fle {
+    align-items: flex-end; }
+    #hero-section .content .fle figure {
+      position: relative;
+      width: 200px; }
+      #hero-section .content .fle figure .abs {
+        position: absolute;
+        top: 0;
+        left: 0; }
+      #hero-section .content .fle figure img {
+        width: 100%; }
+    #hero-section .content .fle h1 {
+      margin-left: -65px;
+      z-index: 10; }
+
+.mo-plane {
+  position: absolute;
+  top: 25%;
+  left: -10%;
+  width: 60px;
+  z-index: 20; }
+
+.rotation {
+  -webkit-animation: rotation 10s infinite linear;
+  animation: rotation 10s infinite linear; }
+
+.go-to-right {
+  -webkit-animation: goToRight 15s infinite linear;
+  animation: goToRight 15s infinite linear;
+  animation-delay: 2s; }
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+@-webkit-keyframes goToRight {
+  from {
+    left: -10%; }
+  to {
+    left: 100%; } }
 
 /*# sourceMappingURL=vocom-soon-style.css.map */

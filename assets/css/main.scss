@@ -9,11 +9,31 @@
 
 // ---------------------- color pallete
  $black : #000;
+ $blue :  #91c8ee;
  $gray : #95a5a6;
- $green : #27ae60;
- $light-gray : #ecf0f1;
- $light-green : #2ecc71;
+ $green : #acca48;
+ $light-green : #a1ceb7;
+ $light-yellow : #f3cb5a;
+ $red : #f09292;
  $white : #fff;
+ $yellow : #f0be07;
+
+// ---------------------- mixin
+@mixin flexbox() {
+ display: -webkit-box;
+ display: -moz-box;
+ display: -ms-flexbox;
+ display: -webkit-flex;
+ display: flex;
+}
+@mixin transition($time){
+	transition: all $time*1s ease-in-out ;
+	-webkit-transition: all $time*1s ease-in-out ;
+	-moz-transition: all $time*1s ease-in-out ;
+	-o-transition: all $time*1s ease-in-out ;
+}
+// ---------------------- import
+@import '_font';
 
  // --------------------- margin & padding
 @for $i from 1 through 10{
@@ -67,3 +87,148 @@
 		padding-right : $i*5px ;
 	}
 }
+// ---------------------------------------- common style
+body {
+  box-sizing: border-box;
+  font-family: 'Fira-Regular';
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+
+// -------------------------------------- custom style
+.fle {
+  @include flexbox();
+}
+.fle-end {
+  align-items: flex-end;
+}
+// -------------------------------------- pages style
+header {
+  padding: 30px;
+  position: fixed;
+  top: 0;
+  z-index: 30;
+
+  img {
+    margin-right: 10px;
+    width: 30px;
+  }
+
+  span {
+    font-family: 'Montserrat-Bold';
+    font-size: 1.2em;
+  }
+}
+
+footer {
+  @include flexbox();
+  bottom: 0;
+  justify-content: space-between;
+  padding: 30px;
+  position: fixed;
+  width: 100vw;
+
+  span {
+    font-family: 'Fira-Bold';
+  }
+
+  .fle-end {
+    display: flex;
+  }
+
+  ul {
+    @include flexbox();
+    margin: 0;
+    padding-left: 5px;
+
+    li {
+      padding: 0 5px;
+
+      a {
+        @include transition(0.3);
+        color: $gray;
+      }
+    }
+  }
+}
+#hero-section,#second-section,#third-section,#fourth-section,#fifth-section,#sixth-section {
+  height: 100vh;
+
+  h1.back-h1 {
+    font-family: 'Fira-Bold';
+    font-size: 14em;
+    left: 50%;
+    margin: 0 0 0 30%;
+    opacity: 0.05;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+}
+#second-section {
+  background-color: $blue;
+}
+#third-section {
+  background-color: $light-yellow;
+}
+#fourth-section {
+  background-color: $light-green;
+}
+#fifth-section {
+  background-color: $gray;
+}
+// ===== hero section
+
+#hero-section {
+
+  .content {
+    @include flexbox();
+    align-items: center;
+    flex-direction: column;
+
+    &>img {
+      width: 15%;
+    }
+
+    .fle {
+      align-items: flex-end;
+
+      figure {
+        position: relative;
+        width: 200px;
+
+        .abs {
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+
+        img {
+          width: 100%;
+        }
+      }
+
+      h1 {
+        margin-left: -65px;
+        z-index: 10;
+      }
+    }
+  }
+}
+.mo-plane {
+  position: absolute;
+  top: 25%;
+  left: -10%;
+  width: 60px;
+  z-index: 20;
+}
+
+// animation
+@import "_keyframes";
