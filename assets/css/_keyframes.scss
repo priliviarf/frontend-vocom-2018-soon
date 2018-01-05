@@ -1,0 +1,29 @@
+// keyframing animation goes here
+.rotation {
+  -webkit-animation: rotation 10s infinite linear;
+  animation: rotation 10s infinite linear;
+}
+.go-to-right {
+  -webkit-animation: goToRight 15s infinite linear;
+  animation: goToRight 15s infinite linear;
+  animation-delay: 2s;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+		}
+}
+@-webkit-keyframes goToRight {
+		from {
+				left: -10%;
+		}
+		to {
+				left: 100%;
+		}
+}
