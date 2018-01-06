@@ -577,6 +577,24 @@ li {
   align-items: center;
   justify-content: center; }
 
+.no-js #loader {
+  display: none; }
+
+.js #loader {
+  display: block;
+  position: absolute;
+  left: 100px;
+  top: 0; }
+
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(../img/preload.gif) center no-repeat #fff; }
+
 header {
   padding: 30px;
   position: fixed;
@@ -1288,7 +1306,7 @@ a > .fa-twitter:hover {
       right: 30%; }
     100% {
       right: 10%; } }
-  #fourth-section h1 {
+  #fourth-section h1, #fifth-section h1 {
     font-size: 2em; }
 
   #icpc-logo {
@@ -1298,6 +1316,13 @@ a > .fa-twitter:hover {
 
   #fifth-section .three {
     margin: 10px 0 20px; }
+
+  .balon {
+    position: absolute;
+    margin-top: 50;
+    margin-left: 10px;
+    width: 40px;
+    height: 56px; }
 
   #sixth-section .content .fle-center {
     flex-direction: column; }

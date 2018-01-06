@@ -379,7 +379,7 @@
     100% {
       right: 10%; } }
   // ------------------------------- fourth-section
-  #fourth-section {
+  #fourth-section,#fifth-section {
     h1 {
       font-size: 2em;
     }
@@ -394,7 +394,15 @@
       margin: 10px 0 20px;
     }
   }
-
+  // ------------------------------- fifth-section
+  .balon{
+    position: absolute;
+    margin-top: 50;
+    margin-left: 10px;
+    width: 40px;
+    height: 56px;
+  }
+  
   // ------------------------------- last-section
   #sixth-section {
     .content {
