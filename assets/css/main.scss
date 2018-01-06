@@ -117,6 +117,17 @@ li {
   justify-content: center;
 }
 // -------------------------------------- pages style
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../img/preload.gif) center no-repeat #fff;
+}
 header {
   padding: 30px;
   position: fixed;
@@ -190,18 +201,6 @@ footer {
 }
 #hero-section,#second-section,#third-section,#fourth-section,#fifth-section,#sixth-section {
   height: 100vh;
-
-  h1.back-h1 {
-    font-family: 'Fira-Bold';
-    font-size: 14em;
-    left: 50%;
-    margin: 0 0 0 30%;
-    opacity: 0.05;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    z-index: -1;
-  }
 
   h1.top {
     line-height: 0.9em;

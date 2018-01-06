@@ -20,10 +20,9 @@
   <link rel="stylesheet" type="text/css" href="./assets/vendor/fullPage/jquery.fullpage.min.css">
   <link rel="stylesheet" type="text/css" href="./assets/vendor/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/vocom-soon-style.css">
-  <link rel="stylesheet" type="text/css" href="./assets/css/responsive-wdc-madc.css"><link rel="stylesheet" type="text/css" href="./assets/css/responsive-icpc-semnas.css">
-
 </head>
 <body>
+  <!-- <div class="se-pre-con"></div> -->
   <header>
     <img src="./assets/img/icon.png" alt="Icon Vocomfest">
     <span>VOCOMFEST</span>
@@ -74,14 +73,15 @@
   	<div id="third-section" class="section">
       <!-- <h1 class="back-h1">MOBILE APPS DEVELOPMENT COMPETITION</h1> -->
       <section class="content">
-        <h1 class="top text-center somewhat-bigger wh fr-bold">MOBILE APPS<br>DEVELOPMENT<br><span class="fr-reg smaller">COMPETITION</span></h1>
         <div class="text">
           <p>
             Lorem ipsum dolor sit amet, quas integre sit no, mei velit virtute oportere cu. Aeque adipisci instructior sit ne, equidem imperdiet ullamcorper cum no. Cu est integre democritum.
           </p>
         </div>
+        <h1 class="top text-center somewhat-bigger wh fr-bold">MOBILE APPS<br>DEVELOPMENT<br><span class="fr-reg smaller">COMPETITION</span></h1>
+        <img id="madc-logo" src="./assets/img/madc.png" alt="">
+
       </section>
-      <img id="madc-logo" src="./assets/img/madc.png" alt="">
       <img class="boat move-ri-inf" src="./assets/img/boat.png" alt="">
     </div>
     <!-- /MADC -->
@@ -91,13 +91,14 @@
       <img class="sun-reg move-infinite" src="./assets/img/sun.png" alt="">
       <section class="content">
         <h1 class="top text-center somewhat-bigger wh fr-bold">INTERNATIONAL<br>COLLEGIATE<br>PROGRAMMING<br><span class="fr-reg smaller">CONTEST</span></h1>
+        <img id="icpc-logo" src="./assets/img/icpc.png" alt="">
+        <div class="text">
+          <p>
+            Lorem ipsum dolor sit amet, quas integre sit no, mei velit virtute oportere cu. Aeque adipisci instructior sit ne, equidem imperdiet ullamcorper cum no. Cu est integre democritum.
+          </p>
+        </div>
       </section>
-      <img id="icpc-logo" src="./assets/img/icpc.png" alt="">
-      <div class="text">
-        <p>
-          Lorem ipsum dolor sit amet, quas integre sit no, mei velit virtute oportere cu. Aeque adipisci instructior sit ne, equidem imperdiet ullamcorper cum no. Cu est integre democritum.
-        </p>
-      </div>
+
     </div>
     <!-- /ICPC -->
     <!-- SemNas -->
@@ -106,7 +107,7 @@
       <img class="balon" src="./assets/img/balon.png" alt="balon">
       <section class="content big-semnas">
         <div>
-          <h1 class="top somewhat-bigger text-center fr-bold">SEMINAR NASIONAL</h1>
+          <h1 class="top somewhat-bigger text-right fr-bold">SEMINAR NASIONAL</h1>
         </div>
         <div class="three">
             <img src="./assets/img/semnas.png" alt="semnas">
@@ -151,9 +152,19 @@
     </footer>
   <!-- JAVASCRIPT HERE  -->
   <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="./assets/js/modernizr.js"></script>
   <script type="text/javascript" src="./assets/vendor/bootstrap/bootstrap.min.js"></script>
   <script type="text/javascript" src="./assets/vendor/fullPage/jquery.fullpage.min.js"></script>
   <script type="text/javascript" src="./assets/vendor/wow.js"></script>
   <script type="text/javascript" src="./assets/js/main.js"></script>
+  <script type="text/javascript">
+    $(function(){ // this replaces document.ready
+      $(window).on("load", function(){
+        $('.se-pre-con').fadeOut('slow', function() {
+          $(this).remove();
+        });
+      });
+    });
+  </script>
 </body>
 </html>
