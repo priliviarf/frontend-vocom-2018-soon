@@ -191,18 +191,6 @@ footer {
 #hero-section,#second-section,#third-section,#fourth-section,#fifth-section,#sixth-section {
   height: 100vh;
 
-  h1.back-h1 {
-    font-family: 'Fira-Bold';
-    font-size: 14em;
-    left: 50%;
-    margin: 0 0 0 30%;
-    opacity: 0.05;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    z-index: -1;
-  }
-
   h1.top {
     line-height: 0.9em;
   }

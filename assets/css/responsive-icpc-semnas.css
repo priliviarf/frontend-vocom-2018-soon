@@ -1,35 +1,16 @@
 /*Mulai styling responsive ICPC*/
 @media screen and (max-width: 1024px){
-  #icpc-logo {
-    width: 20%;
-    position: absolute;
-    top: 2%;
-    right: 50px;
-  }
+
 }
 
 @media screen and (max-width: 990px){
-  #icpc-logo {
-    width: 20%;
-    position: absolute;
-    top: 2%;
-    right: 50px;
-  }
+
 }
 
 @media screen and (max-width: 768px){
-  .somewhat-bigger {
-    font-size: 3.2em;
-    padding-top: 30px;
-  }
-  #icpc-logo {
-    width: 215px;
-    position: absolute;
-    top: 6%;
-    right: 25%;
-    left: 35%;
-  }
-  #fourth-section .text {
+
+
+  /* #fourth-section .text {
       width: 90%;
       position: absolute;
       right:10%;
@@ -37,21 +18,15 @@
       margin: 0;
       font-size: 0.8em;
       padding-left: 2%;
-    }
+    } */
 }
 
 @media screen and (max-width: 480px){
-  .somewhat-bigger {
+  /* .somewhat-bigger {
     font-size: 2.5em;
-  }
-  #icpc-logo {
-    width: 195px;
-    position: absolute;
-    top: 9%;
-    right: 25%;
-    left: 32%;
-  }
-  #fourth-section .text {
+  } */
+
+  /* #fourth-section .text {
       width: 80%;
       position: absolute;
       right:13%;
@@ -59,84 +34,20 @@
       margin: 0;
       font-size: 0.8em;
       padding-left: 2%;
-  }
+  } */
 }
 
 /*Mulai styling responsive semnas*/
 @media screen and (max-width: 1024px){
-  
+
 }
 
 @media screen and (max-width: 990px){
-  .big-semnas {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    max-width: 590px;
-    margin: 0 auto;
-  }
-  .big-semnas h1{
-    font-size: 4.8em;
-    text-align: center !important;
-    padding-left: 40px;
-  }  
-  .three {
-    position: relative;
-    grid-column: 2/4;
-  }
-  .three img {
-    width: 200px;
-    position: absolute;
-    left: 15%;
-    top: 20%;
-  }
-  .four {
-    grid-column: 1/5;
-  }
-  /*styling balon*/
-  .balon{
-    position: absolute;
-    margin-top: 50;
-    margin-left: 35px;
-    width: 55px;
-    height: 76px;
-  }
+
 }
 
 @media screen and (max-width: 768px){
-  .big-semnas {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    max-width: 485px;
-    margin: 0 auto;
-  }
-  .big-semnas h1{
-    font-size: 4em;
-    text-align: center !important;
-    padding-left: 20px;
-  }  
-  .three {
-    position: relative;
-    grid-column: 2/4;
-  }
-  .three img {
-    width: 180px;
-    position: absolute;
-    left: 10%;
-    top: 16%;
-  }
-  .four {
-    grid-column: 1/5;
-  }
-  /*styling balon*/
-  .balon{
-    position: absolute;
-    margin-top: 50;
-    margin-left: 35px;
-    width: 55px;
-    height: 76px;
-  }
+
 }
 
 @media screen and (max-width: 480px){
@@ -155,7 +66,7 @@
     margin: 0 auto;
   }
   .big-semnas h1{
-    font-size: 3.3em;
+    font-size: 2em;
     text-align: center !important;
     padding-left: 5px;
   }
