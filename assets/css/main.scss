@@ -12,6 +12,7 @@
  $blue :  #91c8ee;
  $gray : #95a5a6;
  $green : #acca48;
+ $light-gray: #d8dcdc;
  $light-green : #a1ceb7;
  $light-yellow : #f3cb5a;
  $red : #f09292;
@@ -144,6 +145,7 @@ footer {
   }
 
   .fle-end {
+    align-items: center;
     display: flex;
   }
 
@@ -197,6 +199,10 @@ footer {
     transform: translate(-50%,-50%);
     z-index: -1;
   }
+
+  h1.top {
+    line-height: 0.9em;
+  }
 }
 #second-section {
   background-color: $blue;
@@ -208,7 +214,7 @@ footer {
   background-color: $light-green;
 }
 #fifth-section {
-  background-color: $gray;
+  background-color: $light-gray;
 }
 a>.fa-facebook-square:hover {
   @include transition(0.3);
@@ -225,9 +231,10 @@ a>.fa-twitter:hover {
 // ===== hero section
 
 #hero-section {
-  background-image: url('../img/borobudur.png');
+  background-image: url('../img/travel.png');
   background-position: bottom left;
   background-repeat: no-repeat;
+  background-size: contain;
 
   .content {
     @include flexbox();
@@ -269,6 +276,125 @@ a>.fa-twitter:hover {
   left: -5%;
   width: 60px;
   z-index: 20;
+}
+// =============== second-section
+#second-section {
+  .text {
+    padding-left: 30px;
+    width:35%;
+    position: absolute;
+    top: 20%;
+    left: 50px;
+    margin: 0;
+    z-index: 2;
+  }
+}
+.cloud-reg{
+  width: 6%;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  z-index: 1;
+}
+.cloud-sm {
+  width: 4%;
+  position: absolute;
+  top: 8%;
+  left: 25%;
+  z-index: 0;
+}
+#wdc-logo {
+  width: 20%;
+  position: absolute;
+  bottom: 20%;
+  right: 70px;
+  z-index: 0;
+}
+// =============== third-section
+#third-section .text {
+  padding-right: 30px;
+  text-align: right;
+  width:35%;
+  position: absolute;
+  bottom: 20%;
+  right: 40px;
+  margin: 0;
+  z-index: 2;
+}
+#madc-logo {
+  width: 15%;
+  position: absolute;
+  top: 20%;
+  left: 80px;
+  z-index: 0;
+}
+.boat{
+  width: 7%;
+  position: absolute;
+  bottom: 30px;
+  right: 30%;
+}
+// =============== fourth-section
+#fourth-section .text {
+  padding-left: 30px;
+  width:35%;
+  position: absolute;
+  bottom: 15%;
+  left: 50px;
+}
+#icpc-logo {
+    width: 20%;
+    position: absolute;
+    top: 20%;
+    right: 70px;
+}
+// =============== fifth-section
+.sun {
+	width: 250px;
+  	position: absolute;
+  	top: 80px;
+  	left: 30px;
+}
+.sun-reg{
+  width: 106px;
+  position: absolute;
+  top: 12%;
+  left: 20%;
+  z-index: 1;
+  -webkit-animation: sun 5s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
+    animation: sun 5s linear 2s infinite alternate;
+}
+
+.big-semnas {
+	display: grid;
+	grid-template-columns: 4fr 3fr;
+	grid-template-rows: 200px;
+	max-width: 855px;
+	margin: 0 auto;
+}
+.three {
+	position: relative;
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+.three img {
+	width: 50%;
+	position: absolute;
+	left: 50px;
+	top: 60px;
+}
+.four {
+	grid-column: 1/5;
+}
+/*styling balon*/
+.balon{
+	position: absolute;
+	margin-top: 50;
+	margin-left: 100px;
+	width: 75px;
+	height: 106px;
+	-webkit-animation: myfirst 5s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
+    animation: myfirst 5s linear 2s infinite alternate;
 }
 // =============== sixth-section
 #sixth-section {

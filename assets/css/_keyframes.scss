@@ -8,7 +8,51 @@
   animation: goToRight 15s infinite linear;
   animation-delay: 2s;
 }
+.move-infinite {
+  -webkit-animation: left-right 4.5s infinite ease-in-out;
+          animation: left-right 4.5s infinite ease-in-out;
+}
+.move-ri-inf{
+  -webkit-animation: move-right 4.5s infinite ease-in-out;
+          animation: move-right 4.5s infinite ease-in-out;
+}
+@-webkit-keyframes move-right {
+  0%    {right: 30%;}
+  50%   {right: 40%;}
+  100%  {right: 30%;}
+}
+@keyframes move-right {
+  0%    {right: 30%;}
+  50%   {right: 40%;}
+  100%  {right: 30%;}
+}
+@-webkit-keyframes left-right {
+  0%    {left: 30%;}
+  50%   {left: 25%;}
+  100%  {left: 30%;}
+}
 
+@keyframes left-right {
+  0%    {left: 30%;}
+  50%   {left: 25%;}
+  100%  {left: 30%;}
+}
+.move-sm-infinite {
+  -webkit-animation: right-left 4.5s infinite ease-in-out;
+          animation: right-left 4.5s infinite ease-in-out;
+}
+
+@-webkit-keyframes right-left {
+  0%    {left: 20%;}
+  50%   {left: 25%;}
+  100%  {left: 20%;}
+}
+
+@keyframes right-left {
+  0%    {left: 20%;}
+  50%   {left: 25%;}
+  100%  {left: 20%;}
+}
 @-webkit-keyframes rotation {
 		from {
 				-webkit-transform: rotate(0deg);
@@ -26,4 +70,40 @@
 		to {
 				left: 100%;
 		}
+}
+// ------------------------------ sun
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes sun {
+    0%   {left:50px;}
+    25%  {left:150px;}
+    50%  {left:200px;}
+    75%  {left:250px;}
+    100% {left:300px;}
+}
+
+/* Standard syntax */
+@keyframes sun {
+    0%   {left:50px;}
+    25%  {left:150px;}
+    50%  {left:200px;}
+    75%  {left:250px;}
+    100% {left:300px;}
+}
+// ------------------------------------- balon
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes myfirst {
+    0%   {top:100px;}
+    25%  {top:150px;}
+    50%  {top:250px;}
+    75%  {top:350px;}
+    100% {top:400px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {top:100px;}
+    25%  {top:150px;}
+    50%  {top:250px;}
+    75%  {top:350px;}
+    100% {top:400px;}
 }
