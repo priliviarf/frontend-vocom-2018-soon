@@ -35,7 +35,7 @@
 	display: grid;
 	grid-template-columns: 4fr 3fr;
 	grid-template-rows: 200px;
-	max-width: 855px;
+	max-width: 655px;
 	margin: 0 auto;
 }
 .three {
@@ -44,10 +44,10 @@
 	grid-row: 1/2;
 }
 .three img {
-	width: 50%;
-	position: absolute;
-	left: 50px;
-	top: 60px;
+	width: 200px;
+  position: absolute;
+  left: 30px;
+  top: 40px;
 }
 .four {
 	grid-column: 1/5;
@@ -57,25 +57,25 @@
 	position: absolute;
 	margin-top: 50;
 	margin-left: 100px;
-	width: 75px;
-	height: 106px;
+	width: 65px;
+  height: 88px;
 	-webkit-animation: myfirst 5s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
     animation: myfirst 5s linear 2s infinite alternate;
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes myfirst {
-    0%   {top:100px;}
-    25%  {top:150px;}
-    50%  {top:250px;}
-    75%  {top:350px;}
-    100% {top:400px;}
+    0%   {top:200px;}
+    25%  {top:220px;}
+    50%  {top:240px;}
+    75%  {top:260px;}
+    100% {top:280px;}
 }
 
 /* Standard syntax */
 @keyframes myfirst {
-    0%   {top:100px;}
-    25%  {top:150px;}
-    50%  {top:250px;}
-    75%  {top:350px;}
-    100% {top:400px;}
+    0%   {top:200px;}
+    25%  {top:220px;}
+    50%  {top:240px;}
+    75%  {top:260px;}
+    100% {top:280px;}
 }
