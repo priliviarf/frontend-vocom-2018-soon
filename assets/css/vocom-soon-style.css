@@ -1004,11 +1004,11 @@ a > .fa-twitter:hover {
   .go-to-right {
     -webkit-animation: goToRight 8s infinite linear;
     animation: goToRight 8s infinite linear;
-    animation-delay: 2s; }
+    animation-delay: 0s; }
 
   @-webkit-keyframes goToRight {
     from {
-      left: -10%; }
+      left: -15%; }
     to {
       left: 100%; } }
   #sixth-section .content .fle-center {
