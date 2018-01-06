@@ -65,17 +65,17 @@
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes myfirst {
     0%   {top:200px;}
-    25%  {top:250px;}
-    50%  {top:300px;}
-    75%  {top:350px;}
-    100% {top:380px;}
+    25%  {top:220px;}
+    50%  {top:240px;}
+    75%  {top:260px;}
+    100% {top:280px;}
 }
 
 /* Standard syntax */
 @keyframes myfirst {
     0%   {top:200px;}
-    25%  {top:250px;}
-    50%  {top:300px;}
-    75%  {top:350px;}
-    100% {top:380px;}
+    25%  {top:220px;}
+    50%  {top:240px;}
+    75%  {top:260px;}
+    100% {top:280px;}
 }

@@ -1,14 +1,43 @@
 /*Mulai styling responsive ICPC*/
 @media screen and (max-width: 1024px){
-  
+  #icpc-logo {
+    width: 20%;
+    position: absolute;
+    top: 2%;
+    right: 50px;
+  }
 }
 
 @media screen and (max-width: 990px){
-  
+  #icpc-logo {
+    width: 20%;
+    position: absolute;
+    top: 2%;
+    right: 50px;
+  }
 }
 
 @media screen and (max-width: 768px){
-  
+  .somewhat-bigger {
+    font-size: 3.2em;
+    padding-top: 30px;
+  }
+  #icpc-logo {
+    width: 215px;
+    position: absolute;
+    top: 6%;
+    right: 25%;
+    left: 35%;
+  }
+  #fourth-section .text {
+      width: 90%;
+      position: absolute;
+      right:10%;
+      bottom:20%;
+      margin: 0;
+      font-size: 0.8em;
+      padding-left: 2%;
+    }
 }
 
 @media screen and (max-width: 480px){
@@ -21,6 +50,15 @@
     top: 9%;
     right: 25%;
     left: 32%;
+  }
+  #fourth-section .text {
+      width: 80%;
+      position: absolute;
+      right:13%;
+      bottom:12%;
+      margin: 0;
+      font-size: 0.8em;
+      padding-left: 2%;
   }
 }
 
