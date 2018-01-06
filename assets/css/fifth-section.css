@@ -1,0 +1,145 @@
+/* CSS Layouting semnas*/
+#fifth-section h1.back-h1 {
+  font-family: 'Fira-Bold';
+  font-size: 14em;
+  left: 20%;
+  margin: 0 0 0 30%;
+  opacity: 0.05;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  text-overflow: clip;
+  white-space: nowrap;
+}
+
+.big-semnas {
+	display: grid;
+	grid-template-columns: 4fr 3fr;
+	grid-template-rows: 330px;
+	max-width: 855px;
+	margin: 0 auto;
+}
+.three {
+	position: relative;
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+.three img {
+	width: 256px;
+	height: 200px;
+	position: absolute;
+	left: 50px;
+	top: 60px;
+}
+.four {
+	grid-column: 1/5;
+}
+/*styling balon*/
+.balon{
+	position: absolute;
+	margin-top: 50;
+	margin-left: 100px;
+	width: 75px;
+	height: 106px;
+	-webkit-animation: myfirst 5s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
+    animation: myfirst 5s linear 2s infinite alternate;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes myfirst {
+    0%   {top:100px;}
+    25%  {top:150px;}
+    50%  {top:250px;}
+    75%  {top:350px;}
+    100% {top:400px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {top:100px;}
+    25%  {top:150px;}
+    50%  {top:250px;}
+    75%  {top:350px;}
+    100% {top:400px;}
+}
+
+/*Responsif gan*/
+@media screen and (max-width: 760px){
+  #fifth-section h1.back-h1 {
+  font-family: 'Fira-Bold';
+  font-size: 4em;
+  left: 20%;
+  margin: 0 0 0 30%;
+  opacity: 0.05;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  text-overflow: clip;
+  white-space: nowrap;
+}
+
+.big-semnas {
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  grid-template-rows: 130px;
+  max-width: 355px;
+  margin: 0 auto;
+}
+.big-semnas h1{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 30;
+}
+.three {
+  position: relative;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.three img {
+  width: 56px;
+  height: 30px;
+  position: absolute;
+  left: 5px;
+  top: 6px;
+}
+.four {
+  grid-column: 1/5;
+}
+/*styling balon*/
+.balon{
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 10%;
+  width: 15px;
+  height: 46px;
+  -webkit-animation: myfirst 5s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
+    animation: myfirst 5s linear 2s infinite alternate;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes myfirst {
+    0%   {top:100px;}
+    25%  {top:150px;}
+    50%  {top:250px;}
+    75%  {top:350px;}
+    100% {top:400px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {top:100px;}
+    25%  {top:150px;}
+    50%  {top:250px;}
+    75%  {top:350px;}
+    100% {top:400px;}
+}
+@media only screen and (max-width: 500px) {
+    .big-semnas {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    grid-template-rows: auto;
+    max-width: auto;
+    margin: 0 auto;
+  }
+}
+}
