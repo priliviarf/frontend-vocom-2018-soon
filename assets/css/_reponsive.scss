@@ -1,0 +1,78 @@
+// this is responsive style for vocom-soon 2018
+@media screen and (max-width: 1024px) {
+  .mo-plane {
+    left: -10%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+
+}
+
+@media screen and (max-width: 768px) {
+  .baby-big {
+    font-size: 1em;
+  }
+  .bigger {
+    font-size: 2em;
+  }
+  // ---------------------------- hero-section
+  #hero-section .content .fle figure {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hidden-480 {
+    display: none;
+  }
+  .baby-big {
+    font-size: 0.8em;
+  }
+  .bigger {
+    font-size: 1.5em;
+  }
+  // ------------------ hero-section
+  #hero-section .content .fle figure {
+    width: 80px;
+  }
+  #hero-section {
+    .content {
+        padding: 0 30px;
+
+        p {
+          text-align: center;
+        }
+    }
+
+  }
+  .mo-plane {
+    left: -15%;
+  }
+  .go-to-right {
+    -webkit-animation: goToRight 8s infinite linear;
+    animation: goToRight 8s infinite linear;
+    animation-delay: 2s;
+  }
+  @-webkit-keyframes goToRight {
+  		from {
+  				left: -10%;
+  		}
+  		to {
+  				left: 100%;
+  		}
+  }
+  // -------------------------------- /
+
+  // ------------------------------- last-section
+  #sixth-section {
+    .content {
+      .fle-center {
+        flex-direction: column;
+      }
+      .mg-l-40 {
+        margin: 20px 0 0 0;
+      }
+    }
+  }
+}
