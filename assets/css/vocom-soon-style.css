@@ -595,6 +595,7 @@ footer {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  align-items: center;
   bottom: 0;
   justify-content: space-between;
   padding: 30px;
@@ -967,5 +968,52 @@ a > .fa-twitter:hover {
     top: 350px; }
   100% {
     top: 400px; } }
+@media screen and (max-width: 1024px) {
+  .mo-plane {
+    left: -10%; } }
+@media screen and (max-width: 768px) {
+  .baby-big {
+    font-size: 1em; }
+
+  .bigger {
+    font-size: 2em; }
+
+  #hero-section .content .fle figure {
+    width: 120px; } }
+@media screen and (max-width: 480px) {
+  .hidden-480 {
+    display: none; }
+
+  .baby-big {
+    font-size: 0.8em; }
+
+  .bigger {
+    font-size: 1.5em; }
+
+  #hero-section .content .fle figure {
+    width: 80px; }
+
+  #hero-section .content {
+    padding: 0 30px; }
+    #hero-section .content p {
+      text-align: center; }
+
+  .mo-plane {
+    left: -15%; }
+
+  .go-to-right {
+    -webkit-animation: goToRight 8s infinite linear;
+    animation: goToRight 8s infinite linear;
+    animation-delay: 0s; }
+
+  @-webkit-keyframes goToRight {
+    from {
+      left: -15%; }
+    to {
+      left: 100%; } }
+  #sixth-section .content .fle-center {
+    flex-direction: column; }
+  #sixth-section .content .mg-l-40 {
+    margin: 20px 0 0 0; } }
 
 /*# sourceMappingURL=vocom-soon-style.css.map */
