@@ -595,6 +595,7 @@ footer {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  align-items: center;
   bottom: 0;
   justify-content: space-between;
   padding: 30px;
@@ -620,7 +621,7 @@ footer {
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
-        color: #95a5a6; }
+        color: #d8dcdc; }
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
   height: 6px;
@@ -654,17 +655,20 @@ footer {
   #hero-section h1.top, #second-section h1.top, #third-section h1.top, #fourth-section h1.top, #fifth-section h1.top, #sixth-section h1.top {
     line-height: 0.9em; }
 
+#hero-section {
+  background-color: #f3cb5a; }
+
 #second-section {
   background-color: #91c8ee; }
 
 #third-section {
-  background-color: #f3cb5a; }
+  background-color: #a77dc2; }
 
 #fourth-section {
   background-color: #a1ceb7; }
 
 #fifth-section {
-  background-color: #d8dcdc; }
+  background-color: #f9f9f9; }
 
 a > .fa-facebook-square:hover {
   transition: all 0.3s ease-in-out;
@@ -725,42 +729,40 @@ a > .fa-twitter:hover {
   z-index: 20; }
 
 #second-section .text {
-  padding-left: 30px;
+  padding-left: 0;
   width: 35%;
   position: absolute;
   top: 20%;
-  left: 50px;
+  left: 5%;
   margin: 0;
   z-index: 2; }
 
 .cloud-reg {
   width: 6%;
   position: absolute;
-  top: 10%;
-  left: 30%;
+  top: 5%;
   z-index: 1; }
 
 .cloud-sm {
   width: 4%;
   position: absolute;
-  top: 8%;
-  left: 25%;
+  top: 5%;
   z-index: 0; }
 
 #wdc-logo {
   width: 20%;
   position: absolute;
   bottom: 20%;
-  right: 70px;
+  right: 5%;
   z-index: 0; }
 
 #third-section .text {
-  padding-right: 30px;
+  padding-right: 0;
   text-align: right;
   width: 35%;
   position: absolute;
   bottom: 20%;
-  right: 40px;
+  right: 5%;
   margin: 0;
   z-index: 2; }
 
@@ -768,14 +770,13 @@ a > .fa-twitter:hover {
   width: 15%;
   position: absolute;
   top: 20%;
-  left: 80px;
+  left: 7%;
   z-index: 0; }
 
 .boat {
   width: 7%;
   position: absolute;
-  bottom: 30px;
-  right: 30%; }
+  bottom: 5%; }
 
 #fourth-section .text {
   padding-left: 30px;
@@ -964,5 +965,53 @@ a > .fa-twitter:hover {
     top: 350px; }
   100% {
     top: 400px; } }
+@media screen and (max-width: 1024px) {
+  .mo-plane {
+    left: -10%; } }
+@media screen and (max-width: 768px) {
+  .baby-big {
+    font-size: 1em; }
+
+  .bigger {
+    font-size: 2em; }
+
+  #hero-section .content .fle figure {
+    width: 120px; } }
+@media screen and (max-width: 480px) {
+  .hidden-480 {
+    display: none; }
+
+  .baby-big {
+    font-size: 0.8em; }
+
+  .bigger {
+    font-size: 1.5em; }
+
+  #hero-section .content .fle figure {
+    width: 80px; }
+
+  #hero-section .content {
+    padding: 0 30px; }
+    #hero-section .content p {
+      text-align: center; }
+
+  .mo-plane {
+    left: -15%; }
+
+  .go-to-right {
+    -webkit-animation: goToRight 8s infinite linear;
+    animation: goToRight 8s infinite linear;
+    animation-delay: 0s; }
+
+  @-webkit-keyframes goToRight {
+    from {
+      left: -15%; }
+    to {
+      left: 100%; } }
+  #sixth-section .content .fle-center {
+    flex-direction: column; }
+  #sixth-section .content .mg-l-40 {
+    margin: 20px 0 0 0; }
+  }
 
 /*# sourceMappingURL=vocom-soon-style.css.map */

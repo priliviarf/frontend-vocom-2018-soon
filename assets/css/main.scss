@@ -12,9 +12,11 @@
  $blue :  #91c8ee;
  $gray : #95a5a6;
  $green : #acca48;
+ $somewhat-light-gray : #f9f9f9;
  $light-gray: #d8dcdc;
  $light-green : #a1ceb7;
  $light-yellow : #f3cb5a;
+ $purple : #a77dc2;
  $red : #f09292;
  $white : #fff;
  $yellow : #f0be07;
@@ -134,6 +136,7 @@ header {
 
 footer {
   @include flexbox();
+  align-items: center;
   bottom: 0;
   justify-content: space-between;
   padding: 30px;
@@ -159,7 +162,7 @@ footer {
 
       a {
         @include transition(0.3);
-        color: $gray;
+        color: $light-gray;
       }
     }
   }
@@ -204,17 +207,20 @@ footer {
     line-height: 0.9em;
   }
 }
+#hero-section {
+  background-color: $light-yellow;
+}
 #second-section {
   background-color: $blue;
 }
 #third-section {
-  background-color: $light-yellow;
+  background-color: $purple;
 }
 #fourth-section {
   background-color: $light-green;
 }
 #fifth-section {
-  background-color: $light-gray;
+  background-color: $somewhat-light-gray;
 }
 a>.fa-facebook-square:hover {
   @include transition(0.3);
@@ -404,3 +410,5 @@ a>.fa-twitter:hover {
 }
 // animation
 @import "_keyframes";
+// responsive style
+@import "_reponsive";

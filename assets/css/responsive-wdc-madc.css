@@ -1,0 +1,228 @@
+@media screen and (max-width: 1024px) {
+  #second-section .text {
+    width: 40%;
+    position: absolute;
+    left:2%;
+    top:15%;
+    padding-left: 15px;
+    margin: 0;
+  }
+
+  #third-section .text {
+    width: 40%;
+    position: absolute;
+    right:5%;
+    bottom:10%;
+    margin: 0;
+  }
+
+  .boat {
+    width: 8%;
+    bottom: 12%;
+  }
+
+  @-webkit-keyframes move-right {
+    0% {
+      left: 30%; }
+    50% {
+      left: 40%; }
+    100% {
+      left: 30%; } }
+  @keyframes move-right {
+    0% {
+      left: 30%; }
+    50% {
+      left: 40%; }
+    100% {
+      left: 30%; } }
+}
+
+@media screen and (max-width: 768px) {
+  #second-section .text {
+    width: 50%;
+    position: absolute;
+    left:2%;
+    top:15%;
+    padding-left: 15px;
+    margin: 0;
+  }
+
+  #wdc-logo{
+    width: 23%;
+    bottom: 13%;
+    right: 5%;
+  }
+
+  .cloud-reg {
+    width: 10%;
+  }
+
+  .cloud-sm{
+    width: 6%;
+  }
+  @-webkit-keyframes left-right {
+    0% {
+      left: 85%; }
+    50% {
+      left: 75%; }
+    100% {
+      left: 85%; } }
+  @keyframes left-right {
+    0% {
+      left: 85%; }
+    50% {
+      left: 75%; }
+    100% {
+      left: 85%; } }
+  @-webkit-keyframes right-left {
+    0% {
+      left: 65%; }
+    50% {
+      left: 73%; }
+    100% {
+      left: 65%; } }
+  @keyframes right-left {
+    0% {
+      left: 65%; }
+    50% {
+      left: 73%; }
+    100% {
+      left: 65%; } }
+  /*
+  ========third section========
+  */
+  #third-section .text {
+    width: 50%;
+    position: absolute;
+    right:5%;
+    bottom:10%;
+    margin: 0;
+  }
+  #third-section .content .somewhat-bigger{
+    font-size: 4em;
+  }
+  #madc-logo{
+    left: 5%;
+    top: 15%;
+    width: 17%;
+  }
+
+  .boat {
+    width: 8%;
+    bottom: 15%;
+  }
+
+  @-webkit-keyframes move-right {
+    0% {
+      left: 5%; }
+    50% {
+      left: 20%; }
+    100% {
+      left: 5%; } }
+  @keyframes move-right {
+    0% {
+      left: 5%; }
+    50% {
+      left: 20%; }
+    100% {
+      left: 5%; } }
+}
+
+@media screen and (max-width: 480px) {
+    #second-section .text {
+      width: 100%;
+      position: absolute;
+      left:2%;
+      top:15%;
+      padding-right: 2%;
+      margin: 0;
+      font-size: 0.8em;
+    }
+    .somewhat-bigger{
+      font-size: 3em;
+    }
+    .text-center{
+      margin-left: -10%;
+    }
+    #wdc-logo{
+      width: 40%;
+      bottom: 13%;
+      right: 5%;
+    }
+    .cloud-reg {
+      width: 15%;
+    }
+    .cloud-sm{
+      width: 8%;
+    }
+    @-webkit-keyframes left-right {
+      0% {
+        left: 85%; }
+      50% {
+        left: 75%; }
+      100% {
+        left: 85%; } }
+    @keyframes left-right {
+      0% {
+        left: 85%; }
+      50% {
+        left: 75%; }
+      100% {
+        left: 85%; } }
+    @-webkit-keyframes right-left {
+      0% {
+        left: 65%; }
+      50% {
+        left: 73%; }
+      100% {
+        left: 65%; } }
+    @keyframes right-left {
+      0% {
+        left: 65%; }
+      50% {
+        left: 73%; }
+      100% {
+        left: 65%; } }
+    /*
+    ========third section========
+    */
+    #third-section .text {
+      width: 100%;
+      position: absolute;
+      right:2%;
+      bottom:15%;
+      margin: 0;
+      font-size: 0.8em;
+      padding-left: 2%;
+    }
+
+    #third-section .content .somewhat-bigger{
+      font-size: 2.5em;
+    }
+
+    #madc-logo{
+      left: 10%;
+      top: 15%;
+      width: 30%;
+    }
+
+    .boat {
+      width: 10%;
+      bottom: 11%;
+    }
+
+    @-webkit-keyframes move-right {
+      0% {
+        right: 10%; }
+      50% {
+        right: 30%; }
+      100% {
+        right: 10%; } }
+    @keyframes move-right {
+      0% {
+        right: 10%; }
+      50% {
+        right: 30%; }
+      100% {
+        right: 10%; } }
+}
