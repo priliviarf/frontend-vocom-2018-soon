@@ -620,7 +620,7 @@ footer {
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
-        color: #95a5a6; }
+        color: #d8dcdc; }
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
   height: 6px;
@@ -654,17 +654,20 @@ footer {
   #hero-section h1.top, #second-section h1.top, #third-section h1.top, #fourth-section h1.top, #fifth-section h1.top, #sixth-section h1.top {
     line-height: 0.9em; }
 
+#hero-section {
+  background-color: #f3cb5a; }
+
 #second-section {
   background-color: #91c8ee; }
 
 #third-section {
-  background-color: #f3cb5a; }
+  background-color: #a77dc2; }
 
 #fourth-section {
   background-color: #a1ceb7; }
 
 #fifth-section {
-  background-color: #d8dcdc; }
+  background-color: #f9f9f9; }
 
 a > .fa-facebook-square:hover {
   transition: all 0.3s ease-in-out;
