@@ -729,42 +729,40 @@ a > .fa-twitter:hover {
   z-index: 20; }
 
 #second-section .text {
-  padding-left: 30px;
+  padding-left: 0;
   width: 35%;
   position: absolute;
   top: 20%;
-  left: 50px;
+  left: 5%;
   margin: 0;
   z-index: 2; }
 
 .cloud-reg {
   width: 6%;
   position: absolute;
-  top: 10%;
-  left: 30%;
+  top: 5%;
   z-index: 1; }
 
 .cloud-sm {
   width: 4%;
   position: absolute;
-  top: 8%;
-  left: 25%;
+  top: 5%;
   z-index: 0; }
 
 #wdc-logo {
   width: 20%;
   position: absolute;
   bottom: 20%;
-  right: 70px;
+  right: 5%;
   z-index: 0; }
 
 #third-section .text {
-  padding-right: 30px;
+  padding-right: 0;
   text-align: right;
   width: 35%;
   position: absolute;
   bottom: 20%;
-  right: 40px;
+  right: 5%;
   margin: 0;
   z-index: 2; }
 
@@ -772,14 +770,13 @@ a > .fa-twitter:hover {
   width: 15%;
   position: absolute;
   top: 20%;
-  left: 80px;
+  left: 7%;
   z-index: 0; }
 
 .boat {
   width: 7%;
   position: absolute;
-  bottom: 30px;
-  right: 30%; }
+  bottom: 5%; }
 
 #fourth-section .text {
   padding-left: 30px;
@@ -1014,6 +1011,7 @@ a > .fa-twitter:hover {
   #sixth-section .content .fle-center {
     flex-direction: column; }
   #sixth-section .content .mg-l-40 {
-    margin: 20px 0 0 0; } }
+    margin: 20px 0 0 0; }
+  }
 
 /*# sourceMappingURL=vocom-soon-style.css.map */
