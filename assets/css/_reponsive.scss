@@ -1,4 +1,7 @@
 // this is responsive style for vocom-soon 2018
+.show-480, .show-375 {
+  display: none;
+}
 @media screen and (max-width: 1024px) {
   .somewhat-bigger {
     font-size: 3.5em;
@@ -11,6 +14,9 @@
        width: 18%;
        padding-top: 10px;
      }
+  #hero-section .content .fle figure {
+    width: 150px;
+  }
   // ------------------------------ wdc MADC
   #second-section .text {
     width: 40%;
@@ -245,6 +251,9 @@
 }
 
 @media screen and (max-width: 480px) {
+  .show-480 {
+    display: block;
+  }
   .hidden-480 {
     display: none;
   }
@@ -269,6 +278,9 @@
           width: 40%;
         }
         p {
+          font-size: 0.8em;
+          padding-left: 0;
+          padding-right: 0;
           text-align: center;
         }
     }
@@ -422,6 +434,21 @@
       .mg-l-40 {
         margin: 20px 0 0 0;
       }
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  .hidden-375 {
+    display: none;
+  }
+  .show-375 {
+    display: block;
+  }
+  #sixth-section {
+    .show-375 {
+      bottom: 30px;
+      left: 30px;
+      position: absolute;
     }
   }
 }
