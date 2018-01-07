@@ -970,44 +970,30 @@ a > .fa-twitter:hover {
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes myfirst {
   0% {
-    top: 20%;
-  }
+    top: 100px; }
   25% {
-      top: 24%;
-  }
+    top: 150px; }
   50% {
-      top: 28%;
-  }
+    top: 250px; }
   75% {
-      top: 32%;
-  }
+    top: 350px; }
   100% {
-      top: 36%;
-  } }
+    top: 400px; } }
 /* Standard syntax */
 @keyframes myfirst {
   0% {
-    top: 20%;
-  }
+    top: 100px; }
   25% {
-      top: 24%;
-  }
+    top: 150px; }
   50% {
-      top: 28%;
-  }
+    top: 250px; }
   75% {
-      top: 32%;
-  }
+    top: 350px; }
   100% {
-<<<<<<< HEAD
-      top: 36%;
-  } }
-=======
     top: 400px; } }
 .show-480, .show-375 {
   display: none; }
 
->>>>>>> 721a4d1f8154125bcfcd2ced80e6cf68cc531007
 @media screen and (max-width: 1024px) {
   .somewhat-bigger {
     font-size: 3.5em; }
@@ -1059,15 +1045,13 @@ a > .fa-twitter:hover {
 
   #fourth-section .text {
     bottom: 10%;
-    width: 60%; } }
-
+    width: 40%; } }
   .balon {
     position: absolute;
     margin-top: 50;
     margin-left: 100px;
     width: 70px;
     height: 69px; }
-
 @media screen and (max-width: 990px) {
   .big-semnas {
     display: grid;
@@ -1266,8 +1250,7 @@ a > .fa-twitter:hover {
     position: absolute;
     margin-top: 50;
     margin-left: 35px;
-    width: 65px;
-    height: 66px; } }
+  } }
 @media screen and (max-width: 480px) {
   .show-480 {
     display: block; }
@@ -1413,7 +1396,7 @@ a > .fa-twitter:hover {
     margin-top: 50;
     margin-left: 10px;
     width: 55px;
-    height: 56px; } }
+    height: 56px; }
 
   #sixth-section .content .fle-center {
     flex-direction: column; }
