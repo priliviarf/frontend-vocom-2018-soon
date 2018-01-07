@@ -48,9 +48,6 @@
 .wh {
   color: #fff; }
 
-.red {
-  color: #ff0000; }
-
 .ye {
   color: #f0be07; }
 
@@ -61,9 +58,7 @@
   font-size: 1em; }
 
 .baby-big {
-  font-size: 1.2em;
-  max-width: 700px;
-  text-align: center; }
+  font-size: 1.2em; }
 
 .big {
   font-size: 1.5em; }
@@ -582,6 +577,16 @@ li {
   align-items: center;
   justify-content: center; }
 
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite; }
+
 .no-js #loader {
   display: none; }
 
@@ -717,6 +722,11 @@ a > .fa-twitter:hover {
     display: flex;
     align-items: center;
     flex-direction: column; }
+    #hero-section .content p {
+      max-width: 700px;
+      text-align: center;
+      padding-left: 30px;
+      padding-right: 30px; }
     #hero-section .content > img {
       width: 15%; }
     #hero-section .content .fle {
@@ -730,11 +740,6 @@ a > .fa-twitter:hover {
           left: 0; }
         #hero-section .content .fle figure img {
           width: 100%; }
-      #hero-section .content .fle p {
-        max-width: 700px;
-        text-align: center;
-        padding-left: 30px;
-        padding-right: 30px; }
       #hero-section .content .fle h1 {
         margin-left: -65px;
         z-index: 10; }
@@ -781,7 +786,7 @@ a > .fa-twitter:hover {
   text-align: right;
   width: 35%;
   position: absolute;
-  bottom: 14%;
+  bottom: 20%;
   right: 40px;
   margin: 0;
   z-index: 2; }
@@ -882,18 +887,18 @@ a > .fa-twitter:hover {
 
 @-webkit-keyframes move-right {
   0% {
-    right: 50%; }
+    right: 30%; }
   50% {
-    right: 60%; }
+    right: 40%; }
   100% {
-    right: 50%; } }
+    right: 30%; } }
 @keyframes move-right {
   0% {
-    right: 50%; }
+    right: 30%; }
   50% {
-    right: 60%; }
+    right: 40%; }
   100% {
-    right: 50%; } }
+    right: 30%; } }
 @-webkit-keyframes left-right {
   0% {
     left: 30%; }
@@ -994,8 +999,15 @@ a > .fa-twitter:hover {
       top: 32%;
   }
   100% {
+<<<<<<< HEAD
       top: 36%;
   } }
+=======
+    top: 400px; } }
+.show-480, .show-375 {
+  display: none; }
+
+>>>>>>> 721a4d1f8154125bcfcd2ced80e6cf68cc531007
 @media screen and (max-width: 1024px) {
   .somewhat-bigger {
     font-size: 3.5em; }
@@ -1006,6 +1018,9 @@ a > .fa-twitter:hover {
   #hero-section .content > img {
     width: 18%;
     padding-top: 10px; }
+
+  #hero-section .content .fle figure {
+    width: 150px; }
 
   #second-section .text {
     width: 40%;
@@ -1044,7 +1059,7 @@ a > .fa-twitter:hover {
 
   #fourth-section .text {
     bottom: 10%;
-    width: 40%; } }
+    width: 60%; } }
 
   .balon {
     position: absolute;
@@ -1254,6 +1269,9 @@ a > .fa-twitter:hover {
     width: 65px;
     height: 66px; } }
 @media screen and (max-width: 480px) {
+  .show-480 {
+    display: block; }
+
   .hidden-480 {
     display: none; }
 
@@ -1274,6 +1292,9 @@ a > .fa-twitter:hover {
     #hero-section .content > img {
       width: 40%; }
     #hero-section .content p {
+      font-size: 0.8em;
+      padding-left: 0;
+      padding-right: 0;
       text-align: center; }
 
   .mo-plane {
@@ -1398,5 +1419,16 @@ a > .fa-twitter:hover {
     flex-direction: column; }
   #sixth-section .content .mg-l-40 {
     margin: 20px 0 0 0; } }
+@media screen and (max-width: 375px) {
+  .hidden-375 {
+    display: none; }
+
+  .show-375 {
+    display: block; }
+
+  #sixth-section .show-375 {
+    bottom: 30px;
+    left: 30px;
+    position: absolute; } }
 
 /*# sourceMappingURL=vocom-soon-style.css.map */
