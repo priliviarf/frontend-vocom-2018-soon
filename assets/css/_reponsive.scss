@@ -121,7 +121,6 @@
      width: 30%;}
   // --------------------------- second-section
   #second-section .text {
-    width: 50%;
     left:2%;
     top:15%;
     padding-left: 15px;
@@ -172,7 +171,6 @@
   ========third section========
   */
   #third-section .text {
-    width: 50%;
     right:5%;
     bottom:10%;
   }
@@ -247,6 +245,17 @@
     margin-left: 35px;
     width: 55px;
     height: 76px;
+  }
+
+  #second-section, #third-section {
+    .text {
+      width: 65%;
+    }
+  }
+  #fourth-section {
+    .text {
+      width: 80%;
+    }
   }
 }
 

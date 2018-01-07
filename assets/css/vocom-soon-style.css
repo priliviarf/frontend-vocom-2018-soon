@@ -1096,7 +1096,6 @@ a > .fa-twitter:hover {
     width: 30%; }
 
   #second-section .text {
-    width: 50%;
     left: 2%;
     top: 15%;
     padding-left: 15px; }
@@ -1144,7 +1143,6 @@ a > .fa-twitter:hover {
   ========third section========
   */
   #third-section .text {
-    width: 50%;
     right: 5%;
     bottom: 10%; }
 
@@ -1212,7 +1210,13 @@ a > .fa-twitter:hover {
     margin-top: 50;
     margin-left: 35px;
     width: 55px;
-    height: 76px; } }
+    height: 76px; }
+
+  #second-section .text, #third-section .text {
+    width: 65%; }
+
+  #fourth-section .text {
+    width: 80%; } }
 @media screen and (max-width: 480px) {
   .show-480 {
     display: block; }
