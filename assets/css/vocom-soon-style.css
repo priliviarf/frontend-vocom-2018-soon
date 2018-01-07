@@ -63,10 +63,7 @@
 .baby-big {
   font-size: 1.2em;
   max-width: 700px;
-  text-align: center;
-  padding-left: 30px;
-  padding-right: 30px;
-}
+  text-align: center; }
 
 .big {
   font-size: 1.5em; }
@@ -733,6 +730,11 @@ a > .fa-twitter:hover {
           left: 0; }
         #hero-section .content .fle figure img {
           width: 100%; }
+      #hero-section .content .fle p {
+        max-width: 700px;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px; }
       #hero-section .content .fle h1 {
         margin-left: -65px;
         z-index: 10; }
@@ -985,15 +987,15 @@ a > .fa-twitter:hover {
   100% {
     top: 400px; } }
 @media screen and (max-width: 1024px) {
-  #hero-section .content > img {
-    width: 18%;
-    padding-top: 10px;
-  }
   .somewhat-bigger {
     font-size: 3.5em; }
 
   .mo-plane {
     left: -10%; }
+
+  #hero-section .content > img {
+    width: 18%;
+    padding-top: 10px; }
 
   #second-section .text {
     width: 40%;
@@ -1078,8 +1080,10 @@ a > .fa-twitter:hover {
 
   #hero-section .content .fle figure {
     width: 120px; }
+
   #hero-section .content > img {
-    width: 30%;}
+    width: 30%; }
+
   #second-section .text {
     width: 50%;
     left: 2%;
@@ -1216,13 +1220,14 @@ a > .fa-twitter:hover {
 
   #hero-section .content {
     padding: 0 30px; }
+    #hero-section .content > img {
+      width: 40%; }
     #hero-section .content p {
       text-align: center; }
 
   .mo-plane {
     left: -15%; }
-  #hero-section .content > img {
-    width: 40%;}
+
   .go-to-right {
     -webkit-animation: goToRight 8s infinite linear;
     animation: goToRight 8s infinite linear;
