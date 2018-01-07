@@ -854,11 +854,11 @@ a > .fa-twitter:hover {
   position: absolute;
   margin-top: 50;
   margin-left: 100px;
-  width: 75px;
-  height: 106px;
-  -webkit-animation: myfirst 5s linear 2s infinite alternate;
+  width: 73px;
+  height: 74px;
+  -webkit-animation: myfirst 4s linear 2s infinite alternate;
   /* Safari 4.0 - 8.0 */
-  animation: myfirst 5s linear 2s infinite alternate; }
+  animation: myfirst 4s linear 2s infinite alternate; }
 
 #sixth-section img {
   width: 100px; }
@@ -965,27 +965,37 @@ a > .fa-twitter:hover {
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes myfirst {
   0% {
-    top: 100px; }
+    top: 20%;
+  }
   25% {
-    top: 150px; }
+      top: 24%;
+  }
   50% {
-    top: 250px; }
+      top: 28%;
+  }
   75% {
-    top: 350px; }
+      top: 32%;
+  }
   100% {
-    top: 400px; } }
+      top: 36%;
+  } }
 /* Standard syntax */
 @keyframes myfirst {
   0% {
-    top: 100px; }
+    top: 20%;
+  }
   25% {
-    top: 150px; }
+      top: 24%;
+  }
   50% {
-    top: 250px; }
+      top: 28%;
+  }
   75% {
-    top: 350px; }
+      top: 32%;
+  }
   100% {
-    top: 400px; } }
+      top: 36%;
+  } }
 @media screen and (max-width: 1024px) {
   .somewhat-bigger {
     font-size: 3.5em; }
@@ -1035,6 +1045,14 @@ a > .fa-twitter:hover {
   #fourth-section .text {
     bottom: 10%;
     width: 40%; } }
+
+  .balon {
+    position: absolute;
+    margin-top: 50;
+    margin-left: 100px;
+    width: 70px;
+    height: 69px; }
+
 @media screen and (max-width: 990px) {
   .big-semnas {
     display: grid;
@@ -1065,9 +1083,42 @@ a > .fa-twitter:hover {
   .balon {
     position: absolute;
     margin-top: 50;
-    margin-left: 35px;
-    width: 55px;
-    height: 76px; } }
+    margin-left: 75px;
+    width: 65px;
+    height: 66px; } }
+  @-webkit-keyframes myfirst {
+  0% {
+    top: 24%;
+  }
+  25% {
+      top: 28%;
+  }
+  50% {
+      top: 32%;
+  }
+  75% {
+      top: 36%;
+  }
+  100% {
+      top: 40%;
+  } }
+/* Standard syntax */
+@keyframes myfirst {
+  0% {
+    top: 24%;
+  }
+  25% {
+      top: 28%;
+  }
+  50% {
+      top: 32%;
+  }
+  75% {
+      top: 36%;
+  }
+  100% {
+      top: 40%;
+  } }
 @media screen and (max-width: 768px) {
   .baby-big {
     font-size: 1em; }
@@ -1200,8 +1251,8 @@ a > .fa-twitter:hover {
     position: absolute;
     margin-top: 50;
     margin-left: 35px;
-    width: 55px;
-    height: 76px; } }
+    width: 65px;
+    height: 66px; } }
 @media screen and (max-width: 480px) {
   .hidden-480 {
     display: none; }
@@ -1340,8 +1391,8 @@ a > .fa-twitter:hover {
     position: absolute;
     margin-top: 50;
     margin-left: 10px;
-    width: 40px;
-    height: 56px; }
+    width: 55px;
+    height: 56px; } }
 
   #sixth-section .content .fle-center {
     flex-direction: column; }
