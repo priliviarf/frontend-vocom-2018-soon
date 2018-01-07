@@ -48,6 +48,9 @@
 .wh {
   color: #fff; }
 
+.red {
+  color: #ff0000; }
+
 .ye {
   color: #f0be07; }
 
@@ -778,7 +781,7 @@ a > .fa-twitter:hover {
   text-align: right;
   width: 35%;
   position: absolute;
-  bottom: 20%;
+  bottom: 14%;
   right: 40px;
   margin: 0;
   z-index: 2; }
@@ -879,18 +882,18 @@ a > .fa-twitter:hover {
 
 @-webkit-keyframes move-right {
   0% {
-    right: 30%; }
+    right: 50%; }
   50% {
-    right: 40%; }
+    right: 60%; }
   100% {
-    right: 30%; } }
+    right: 50%; } }
 @keyframes move-right {
   0% {
-    right: 30%; }
+    right: 50%; }
   50% {
-    right: 40%; }
+    right: 60%; }
   100% {
-    right: 30%; } }
+    right: 50%; } }
 @-webkit-keyframes left-right {
   0% {
     left: 30%; }
