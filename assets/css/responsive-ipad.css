@@ -1,26 +1,18 @@
-
 @media screen and (min-height: 1024px){
-  .somewhat-bigger {
-    font-size: 4.5em !important;
+  body {
+    font-size: 1.3em;
   }
 
   #second-section .text {
-    font-size: 1.3em;
     width: 65%;
   }
 
   #third-section .text {
-    font-size: 1.3em;
     width: 65%;
   }
 
   #fourth-section .text {
-    font-size: 1.3em;
     width: 65%;
-  }
-
-  #fifth-section .four .text-center {
-    font-size: 1.3em;
   }
 
   #wdc-logo {
@@ -35,29 +27,15 @@
 }
 
 @media screen and (min-height: 1366px){
-  .somewhat-bigger {
-    font-size: 5em !important;
-  }
-
-  #second-section .text {
+  body {
     font-size: 1.5em;
-    width: 65%;
   }
 
   #third-section .text {
-    font-size: 1.5em;
-
-    width: 65%;
     bottom: 20%;
   }
 
-  #fourth-section .text {
-    font-size: 1.5em;
-    width: 65%;
-  }
-
   #fifth-section .four .text-center {
-    font-size: 1.5em;
     margin-top: 50px;
   }
 
