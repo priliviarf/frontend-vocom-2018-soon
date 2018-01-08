@@ -805,17 +805,17 @@ a > .fa-twitter:hover {
   right: 30%; }
 
 #fourth-section .text {
-  padding-left: 30px;
+  padding-left: 20px;
   width: 35%;
   position: absolute;
-  bottom: 15%;
+  bottom: 12%;
   left: 50px; }
 
 #icpc-logo {
   width: 20%;
   position: absolute;
   top: 20%;
-  right: 70px; }
+  right: 4%; }
 
 .sun {
   width: 250px;
@@ -861,10 +861,12 @@ a > .fa-twitter:hover {
   margin-left: 100px;
   width: 73px;
   height: 74px;
+  z-index: 1;
   -webkit-animation: myfirst 4s linear 2s infinite alternate;
   /* Safari 4.0 - 8.0 */
   animation: myfirst 4s linear 2s infinite alternate; }
-
+#fifth-section .ball {
+    z-index: 10; }
 #sixth-section img {
   width: 100px; }
 
@@ -970,34 +972,43 @@ a > .fa-twitter:hover {
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes myfirst {
   0% {
-    top: 100px; }
+    top: 30%;
+  }
   25% {
-    top: 150px; }
+      top: 34%;
+  }
   50% {
-    top: 250px; }
+      top: 38%;
+  }
   75% {
-    top: 350px; }
+      top: 42%;
+  }
   100% {
-    top: 400px; } }
+      top: 46%;
+  } }
 /* Standard syntax */
 @keyframes myfirst {
   0% {
-    top: 100px; }
+    top: 30%;
+  }
   25% {
-    top: 150px; }
+      top: 34%;
+  }
   50% {
-    top: 250px; }
+      top: 38%;
+  }
   75% {
-    top: 350px; }
+      top: 42%;
+  }
   100% {
-    top: 400px; } }
+      top: 46%;
+  } }
 .show-480, .show-375 {
   display: none; }
 
 @media screen and (max-width: 1024px) {
   .somewhat-bigger {
     font-size: 3.5em; }
-
   .mo-plane {
     left: -10%; }
 
@@ -1045,13 +1056,15 @@ a > .fa-twitter:hover {
 
   #fourth-section .text {
     bottom: 10%;
-    width: 40%; } }
+    width: 54%; }
+  #fifth-section h1 {
+    font-size: 4.5em; }
   .balon {
     position: absolute;
     margin-top: 50;
     margin-left: 100px;
     width: 70px;
-    height: 69px; }
+    height: 69px; } }
 @media screen and (max-width: 990px) {
   .big-semnas {
     display: grid;
@@ -1085,39 +1098,7 @@ a > .fa-twitter:hover {
     margin-left: 75px;
     width: 65px;
     height: 66px; } }
-  @-webkit-keyframes myfirst {
-  0% {
-    top: 24%;
-  }
-  25% {
-      top: 28%;
-  }
-  50% {
-      top: 32%;
-  }
-  75% {
-      top: 36%;
-  }
-  100% {
-      top: 40%;
-  } }
-/* Standard syntax */
-@keyframes myfirst {
-  0% {
-    top: 24%;
-  }
-  25% {
-      top: 28%;
-  }
-  50% {
-      top: 32%;
-  }
-  75% {
-      top: 36%;
-  }
-  100% {
-      top: 40%;
-  } }
+  
 @media screen and (max-width: 768px) {
   .baby-big {
     font-size: 1em; }
@@ -1210,14 +1191,31 @@ a > .fa-twitter:hover {
       left: 20%; }
     100% {
       left: 5%; } }
+  #fourth-section .content .text, #fourth-section .content .four{
+      order: 3;
+      font-size: 0.9em;
+      padding: 0 45px;
+      position: initial;
+      text-align: center;
+      width: 100%; }
+  #fourth-section .content{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; }
   #fourth-section h1 {
-    font-size: 2.8em; }
+    font-size: 2.7em;
+    padding-top: 85px;  }
 
   #icpc-logo {
     width: 150px;
     position: absolute;
     transform: translateX(-50%);
-    top: 10%;
+    top: 8%;
     left: 50%; }
 
   .big-semnas {
@@ -1248,9 +1246,54 @@ a > .fa-twitter:hover {
   /*styling balon*/
   .balon {
     position: absolute;
-    margin-top: 50;
+    margin-top: 30;
     margin-left: 35px;
+  }
+
+  @-webkit-keyframes myfirst {
+  0% {
+    left: 8%;
+    top: 14%;
+  }
+  25% {
+      left: 12%;
+      top: 14%;
+  }
+  50% {
+      left: 16%;
+      top: 14%;
+  }
+  75% {
+      left: 20%;
+      top: 14%;
+  }
+  100% {
+      left: 22%;
+      top: 14%;
   } }
+/* Standard syntax */
+@keyframes myfirst {
+  0% {
+    left: 8%;
+    top: 14%;
+  }
+  25% {
+      left: 12%;
+      top: 14%;
+  }
+  50% {
+      left: 16%;
+      top: 14%;
+  }
+  75% {
+      left: 20%;
+      top: 14%;
+  }
+  100% {
+      left: 22%;
+      top: 14%;
+  } }
+}
 @media screen and (max-width: 480px) {
   .show-480 {
     display: block; }
@@ -1397,11 +1440,44 @@ a > .fa-twitter:hover {
     margin-left: 10px;
     width: 55px;
     height: 56px; }
-
+  @-webkit-keyframes myfirst {
+  0% {
+    top: 30%;
+  }
+  25% {
+      top: 34%;
+  }
+  50% {
+      top: 38%;
+  }
+  75% {
+      top: 42%;
+  }
+  100% {
+      top: 46%;
+  } }
+/* Standard syntax */
+@keyframes myfirst {
+  0% {
+    top: 30%;
+  }
+  25% {
+      top: 34%;
+  }
+  50% {
+      top: 38%;
+  }
+  75% {
+      top: 42%;
+  }
+  100% {
+      top: 46%;
+  } }
   #sixth-section .content .fle-center {
     flex-direction: column; }
   #sixth-section .content .mg-l-40 {
     margin: 20px 0 0 0; } }
+
 @media screen and (max-width: 375px) {
   .hidden-375 {
     display: none; }
