@@ -140,7 +140,11 @@ li {
 	z-index: 9999;
 	background: url(../img/preload.gif) center no-repeat #fff;
 }
+
 header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   padding: 30px;
   position: fixed;
   top: 0;
@@ -154,6 +158,7 @@ header {
   span {
     font-family: 'Montserrat-Bold';
     font-size: 1.2em;
+    padding-top: 3px;
   }
 }
 

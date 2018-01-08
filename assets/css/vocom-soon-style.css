@@ -606,6 +606,9 @@ li {
   background: url(../img/preload.gif) center no-repeat #fff; }
 
 header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   padding: 30px;
   position: fixed;
   top: 0;
@@ -615,7 +618,8 @@ header {
     width: 30px; }
   header span {
     font-family: 'Montserrat-Bold';
-    font-size: 1.2em; }
+    font-size: 1.2em;
+    padding-top: 3px; }
 
 footer {
   display: -webkit-box;
