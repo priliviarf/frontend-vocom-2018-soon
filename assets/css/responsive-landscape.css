@@ -1,0 +1,146 @@
+@media screen and (max-height: 480px) and (min-width: 600px){
+  .hidden-landscape {
+    display: none !important;
+  }
+  .show-landscape {
+    display: block;
+  }
+  .bot-le {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+  }
+  .bot-ri {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+  }
+  #hero-section .text {
+    font-size: 0.8em;
+  }
+  #sixth-section span {
+    font-family: 'Fira-Bold';
+
+  }
+  #sixth-section .fle-end {
+    align-items: center;
+    display: flex;
+  }
+  #sixth-section ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    margin: 0;
+    padding-left: 5px; }
+    #sixth-section ul li {
+      padding: 0 5px; }
+      #sixth-section ul li a {
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        color: #d8dcdc; }
+
+  .top-ri {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    width: 25%!important;
+  }
+
+  .marg-bot {
+    margin-bottom: 0!important;
+  }
+  /* SECOND SECTION */
+
+  #second-section .text {
+    font-size: 0.8em;
+    top: 70%;
+    width: 70%;
+  }
+
+  .pad-bot{
+    padding-bottom: 25px;
+  }
+
+  #wdc-logo {
+    width: 20%;
+  }
+
+  #third-section .text {
+    width: 70%;
+    top: 70%;
+    font-size: 0.8em;
+  }
+
+  #madc-logo {
+    top: 25%;
+    width: 15%;
+  }
+  @-webkit-keyframes move-right {
+    0% {
+      left: 5%; }
+    50% {
+      left: 15%; }
+    100% {
+      left: 5%; } }
+  @keyframes move-right {
+    0% {
+      left: 5%; }
+    50% {
+      left: 15%; }
+    100% {
+      left: 5%; } }
+
+/* fourth SECTION & FIFTH */
+
+  #fourth-section .somewhat-bigger {
+    margin-bottom : 5px;
+    padding-left: 15px;
+    padding-top: 6%!important;
+    font-size: 2.5em!important;
+  }
+  #fifth-section .somewhat-bigger {
+    padding-top: 10%;
+    margin-bottom: 15px;
+  }
+  #fourth-section .text{
+    font-size: 0.8em!important;
+  }
+
+  #fifth-section .text-center{
+    font-size: 0.8em!important;
+  }
+
+  #icpc-logo {
+    top: 30%;
+    left: 15%;
+  }
+
+  .sun-reg {
+    top: 25%;
+  }
+
+  @-webkit-keyframes myfirst {
+    0% {
+      left: 30%;
+      top: 4%; }
+    50% {
+      left: 40%;
+      top: 4%; }
+    100% {
+      left: 30%;
+      top: 4%; } }
+  @keyframes myfirst {
+    0% {
+      left: 30%;
+      top: 4%; }
+    50% {
+      left: 40%;
+      top: 4%; }
+    100% {
+      left: 30%;
+      top: 4%; } }
+}
