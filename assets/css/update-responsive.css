@@ -1,0 +1,206 @@
+#hero-section .content > img {
+      width: 250px; }
+
+#icpc-logo {
+  width: 20%;
+  position: absolute;
+  top: 20%;
+  right: 4%; }
+#fourth-section .text {
+  padding-left: 20px;
+  width: 35%;
+  position: absolute;
+  bottom: 12%;
+  left: 50px; }
+@-webkit-keyframes myfirst {
+  0% {
+    top: 30%;
+  }
+  25% {
+      top: 34%;
+  }
+  50% {
+      top: 38%;
+  }
+  75% {
+      top: 42%;
+  }
+  100% {
+      top: 46%;
+  } }
+/* Standard syntax */
+@keyframes myfirst {
+  0% {
+    top: 30%;
+  }
+  25% {
+      top: 34%;
+  }
+  50% {
+      top: 38%;
+  }
+  75% {
+      top: 42%;
+  }
+  100% {
+      top: 46%;
+  } }
+
+@media screen and (max-width: 1024px) {
+	#hero-section .content > img {
+    width: 250px;
+    padding-top: 10px; }
+
+    #fourth-section .text {
+    bottom: 10%;
+    width: 54%; }
+
+    #fifth-section h1 {
+    font-size: 4.5em; }
+}
+@media screen and (max-width: 990px) {
+	@-webkit-keyframes myfirst {
+	  0% {
+	    top: 30%;
+	  }
+	  25% {
+	      top: 34%;
+	  }
+	  50% {
+	      top: 38%;
+	  }
+	  75% {
+	      top: 42%;
+	  }
+	  100% {
+	      top: 46%;
+	  } }
+	/* Standard syntax */
+	@keyframes myfirst {
+	  0% {
+	    top: 30%;
+	  }
+	  25% {
+	      top: 34%;
+	  }
+	  50% {
+	      top: 38%;
+	  }
+	  75% {
+	      top: 42%;
+	  }
+	  100% {
+	      top: 46%;
+	  } }
+}
+@media screen and (max-width: 768px) {
+	#hero-section .content > img {
+    width: 240px; }
+
+    #fourth-section .content .text, #fourth-section .content .four{
+      order: 3;
+      font-size: 0.9em;
+      padding: 0 45px;
+      position: initial;
+      text-align: center;
+      width: 100%; }
+
+    #fourth-section h1 {
+	   font-size: 2.7em;
+	   padding-top: 85px;  }
+
+	#icpc-logo {
+	    width: 150px;
+	    position: absolute;
+	    transform: translateX(-50%);
+	    top: 8%;
+	    left: 50%; }
+
+	.balon {
+	    position: absolute;
+	    margin-top: 30;
+	    margin-left: 35px; }
+
+    @-webkit-keyframes myfirst {
+	  0% {
+	    left: 8%;
+	    top: 14%;
+	  }
+	  25% {
+	      left: 12%;
+	      top: 14%;
+	  }
+	  50% {
+	      left: 16%;
+	      top: 14%;
+	  }
+	  75% {
+	      left: 20%;
+	      top: 14%;
+	  }
+	  100% {
+	      left: 22%;
+	      top: 14%;
+	  } }
+	/* Standard syntax */
+	@keyframes myfirst {
+	  0% {
+	    left: 8%;
+	    top: 14%;
+	  }
+	  25% {
+	      left: 12%;
+	      top: 14%;
+	  }
+	  50% {
+	      left: 16%;
+	      top: 14%;
+	  }
+	  75% {
+	      left: 20%;
+	      top: 14%;
+	  }
+	  100% {
+	      left: 22%;
+	      top: 14%;
+	  } }
+}
+
+@media screen and (max-width: 480px) {
+	#hero-section .content > img {
+      width: 220px; }
+
+  @-webkit-keyframes myfirst {
+  0% {
+    top: 30%;
+  }
+  25% {
+      top: 34%;
+  }
+  50% {
+      top: 38%;
+  }
+  75% {
+      top: 42%;
+  }
+  100% {
+      top: 46%;
+  } }
+/* Standard syntax */
+@keyframes myfirst {
+  0% {
+    top: 30%;
+  }
+  25% {
+      top: 34%;
+  }
+  50% {
+      top: 38%;
+  }
+  75% {
+      top: 42%;
+  }
+  100% {
+      top: 46%;
+  } }
+}
