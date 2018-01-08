@@ -728,7 +728,7 @@ a > .fa-twitter:hover {
       padding-left: 30px;
       padding-right: 30px; }
     #hero-section .content > img {
-      width: 15%; }
+      width: 250px; }
     #hero-section .content .fle {
       align-items: flex-end; }
       #hero-section .content .fle figure {
@@ -808,14 +808,14 @@ a > .fa-twitter:hover {
   padding-left: 30px;
   width: 35%;
   position: absolute;
-  bottom: 15%;
+  bottom: 12%;
   left: 50px; }
 
 #icpc-logo {
   width: 20%;
   position: absolute;
   top: 20%;
-  right: 70px; }
+  right: 4%; }
 
 .sun {
   width: 250px;
@@ -967,30 +967,29 @@ a > .fa-twitter:hover {
     left: 250px; }
   100% {
     left: 300px; } }
-/* Safari 4.0 - 8.0 */
 @-webkit-keyframes myfirst {
   0% {
-    top: 100px; }
+    top: 30%; }
   25% {
-    top: 150px; }
+    top: 34%; }
   50% {
-    top: 250px; }
+    top: 38%; }
   75% {
-    top: 350px; }
+    top: 42%; }
   100% {
-    top: 400px; } }
+    top: 46%; } }
 /* Standard syntax */
 @keyframes myfirst {
   0% {
-    top: 100px; }
+    top: 30%; }
   25% {
-    top: 150px; }
+    top: 34%; }
   50% {
-    top: 250px; }
+    top: 38%; }
   75% {
-    top: 350px; }
+    top: 42%; }
   100% {
-    top: 400px; } }
+    top: 46%; } }
 .show-480, .show-375 {
   display: none; }
 
@@ -1002,7 +1001,7 @@ a > .fa-twitter:hover {
     left: -10%; }
 
   #hero-section .content > img {
-    width: 18%;
+    width: 250px;
     padding-top: 10px; }
 
   #hero-section .content .fle figure {
@@ -1045,7 +1044,10 @@ a > .fa-twitter:hover {
 
   #fourth-section .text {
     bottom: 10%;
-    width: 40%; } }
+    width: 54%; }
+
+  #fifth-section h1 {
+    font-size: 4.5em; } }
 @media screen and (max-width: 990px) {
   .big-semnas {
     display: grid;
@@ -1078,7 +1080,31 @@ a > .fa-twitter:hover {
     margin-top: 50;
     margin-left: 35px;
     width: 55px;
-    height: 76px; } }
+    height: auto; }
+
+  @-webkit-keyframes myfirst {
+    0% {
+      top: 30%; }
+    25% {
+      top: 34%; }
+    50% {
+      top: 38%; }
+    75% {
+      top: 42%; }
+    100% {
+      top: 46%; } }
+  /* Standard syntax */
+  @keyframes myfirst {
+    0% {
+      top: 30%; }
+    25% {
+      top: 34%; }
+    50% {
+      top: 38%; }
+    75% {
+      top: 42%; }
+    100% {
+      top: 46%; } } }
 @media screen and (max-width: 768px) {
   .baby-big {
     font-size: 1em; }
@@ -1093,7 +1119,7 @@ a > .fa-twitter:hover {
     width: 120px; }
 
   #hero-section .content > img {
-    width: 30%; }
+    width: 240px; }
 
   #second-section .text {
     width: 50%;
@@ -1172,13 +1198,22 @@ a > .fa-twitter:hover {
     100% {
       left: 5%; } }
   #fourth-section h1 {
-    font-size: 2.8em; }
+    font-size: 2.7em;
+    padding-top: 85px; }
+
+  #fourth-section .content .text, #fourth-section .content .four {
+    order: 3;
+    font-size: 0.9em;
+    padding: 0 45px;
+    position: initial;
+    text-align: center;
+    width: 100%; }
 
   #icpc-logo {
     width: 150px;
     position: absolute;
     transform: translateX(-50%);
-    top: 10%;
+    top: 8%;
     left: 50%; }
 
   .big-semnas {
@@ -1209,10 +1244,42 @@ a > .fa-twitter:hover {
   /*styling balon*/
   .balon {
     position: absolute;
-    margin-top: 50;
-    margin-left: 35px;
-    width: 55px;
-    height: auto; } }
+    margin-top: 30;
+    margin-left: 35px; }
+
+  @-webkit-keyframes myfirst {
+    0% {
+      left: 8%;
+      top: 14%; }
+    25% {
+      left: 12%;
+      top: 14%; }
+    50% {
+      left: 16%;
+      top: 14%; }
+    75% {
+      left: 20%;
+      top: 14%; }
+    100% {
+      left: 22%;
+      top: 14%; } }
+  /* Standard syntax */
+  @keyframes myfirst {
+    0% {
+      left: 8%;
+      top: 14%; }
+    25% {
+      left: 12%;
+      top: 14%; }
+    50% {
+      left: 16%;
+      top: 14%; }
+    75% {
+      left: 20%;
+      top: 14%; }
+    100% {
+      left: 22%;
+      top: 14%; } } }
 @media screen and (max-width: 480px) {
   .show-480 {
     display: block; }
@@ -1235,7 +1302,7 @@ a > .fa-twitter:hover {
   #hero-section .content {
     padding: 0 30px; }
     #hero-section .content > img {
-      width: 40%; }
+      width: 220px; }
     #hero-section .content p {
       font-size: 0.8em;
       padding-left: 0;
@@ -1353,6 +1420,29 @@ a > .fa-twitter:hover {
   #fifth-section .three {
     margin: 10px 0 20px; }
 
+  @-webkit-keyframes myfirst {
+    0% {
+      top: 30%; }
+    25% {
+      top: 34%; }
+    50% {
+      top: 38%; }
+    75% {
+      top: 42%; }
+    100% {
+      top: 46%; } }
+  /* Standard syntax */
+  @keyframes myfirst {
+    0% {
+      top: 30%; }
+    25% {
+      top: 34%; }
+    50% {
+      top: 38%; }
+    75% {
+      top: 42%; }
+    100% {
+      top: 46%; } }
   .balon {
     position: absolute;
     margin-top: 50;
