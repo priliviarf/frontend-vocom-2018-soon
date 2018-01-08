@@ -786,7 +786,7 @@ a > .fa-twitter:hover {
   text-align: right;
   width: 35%;
   position: absolute;
-  bottom: 20%;
+  bottom: 15%;
   right: 40px;
   margin: 0;
   z-index: 2; }
@@ -1223,6 +1223,9 @@ a > .fa-twitter:hover {
     max-width: 485px;
     margin: 0 auto; }
 
+  #fifth-section h1 {
+    font-size: 3.5em; }
+
   .big-semnas h1 {
     font-size: 4em;
     text-align: center !important;
@@ -1233,10 +1236,10 @@ a > .fa-twitter:hover {
     grid-column: 2/4; }
 
   .three img {
-    width: 180px;
+    width: 175px;
     position: absolute;
-    left: 10%;
-    top: 16%; }
+    top: 12%;
+    left: 5%; }
 
   .four {
     grid-column: 1/5; }
@@ -1280,6 +1283,49 @@ a > .fa-twitter:hover {
     100% {
       left: 22%;
       top: 14%; } } }
+@media screen and (max-width: 630px) {
+  #fifth-section h1 {
+    font-size: 3em;
+    padding-left: 85px; }
+
+  #fifth-section .four .text-center {
+    padding: 0 20px; }
+
+  .three img {
+    width: 145px;
+    position: absolute;
+    top: 12%;
+    left: 5px; }
+
+  /*styling balon*/
+  .balon {
+    position: absolute;
+    margin-top: 30;
+    margin-left: 6px; }
+
+  @-webkit-keyframes myfirst {
+    0% {
+      top: 30%; }
+    25% {
+      top: 34%; }
+    50% {
+      top: 38%; }
+    75% {
+      top: 40%; }
+    100% {
+      top: 42%; } }
+  /* Standard syntax */
+  @keyframes myfirst {
+    0% {
+      top: 30%; }
+    25% {
+      top: 34%; }
+    50% {
+      top: 38%; }
+    75% {
+      top: 40%; }
+    100% {
+      top: 42%; } } }
 @media screen and (max-width: 480px) {
   .show-480 {
     display: block; }
