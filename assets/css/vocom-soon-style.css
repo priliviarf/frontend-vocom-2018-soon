@@ -10,32 +10,32 @@
   font-family: 'Montserrat-Regular';
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/Montserrat-Regular.ttf") format("truetype"); }
+  src: url("../fonts/montserrat-regular-webfont.woff") format("woff"), url("../fonts/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/Montserrat-Regular.ttf") format("truetype"); }
 @font-face {
   font-family: 'Montserrat-Bold';
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/Montserrat-Bold.ttf") format("truetype"); }
+  src: url("../fonts/montserrat-bold-webfont.woff") format("woff"), url("../fonts/montserrat-bold-webfont.woff2") format("woff2"), url("../fonts/Montserrat-Bold.ttf") format("truetype"); }
 @font-face {
   font-family: 'Fira-Black';
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/FiraSans-Black.ttf") format("truetype"); }
+  src: url("../fonts/firasans-black-webfont.woff") format("woff"), url("../fonts/firasans-black-webfont.woff2") format("woff2"), url("../fonts/FiraSans-Black.ttf") format("truetype"); }
 @font-face {
   font-family: 'Fira-Bold';
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/FiraSans-Bold.ttf") format("truetype"); }
+  src: url("../fonts/firasans-bold-webfont.woff") format("woff"), url("../fonts/firasans-bold-webfont.woff2") format("woff2"), url("../fonts/FiraSans-Bold.ttf") format("truetype"); }
 @font-face {
   font-family: 'Fira-Regular';
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/FiraSans-Regular.ttf") format("truetype"); }
+  src: url("../fonts/firasans-regular-webfont.woff") format("woff"), url("../fonts/firasans-regular-webfont.woff2") format("woff2"), url("../fonts/FiraSans-Regular.ttf") format("truetype"); }
 @font-face {
   font-family: 'Fira-Light';
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/FiraSans-Light.ttf") format("truetype"); }
+  src: url("../fonts/firasans-light-webfont.woff") format("woff"), url("../fonts/firasans-light-webfont.woff2") format("woff2"), url("../fonts/FiraSans-Light.ttf") format("truetype"); }
 .bla {
   color: #000; }
 
@@ -552,7 +552,7 @@
 
 body {
   box-sizing: border-box;
-  font-family: 'Fira-Regular';
+  font-family: 'Fira-Regular',sans-serif;
   font-size: 16px;
   margin: 0;
   padding: 0; }
@@ -728,7 +728,7 @@ a > .fa-twitter:hover {
       padding-left: 30px;
       padding-right: 30px; }
     #hero-section .content > img {
-      width: 15%; }
+      width: 250px; }
     #hero-section .content .fle {
       align-items: flex-end; }
       #hero-section .content .fle figure {
@@ -784,10 +784,10 @@ a > .fa-twitter:hover {
 #third-section .text {
   padding-right: 30px;
   text-align: right;
-  width: 33%;
+  width: 35%;
   position: absolute;
-  bottom: 20%;
-  right: 35px;
+  bottom: 15%;
+  right: 40px;
   margin: 0;
   z-index: 2; }
 
@@ -808,14 +808,14 @@ a > .fa-twitter:hover {
   padding-left: 30px;
   width: 35%;
   position: absolute;
-  bottom: 15%;
+  bottom: 12%;
   left: 50px; }
 
 #icpc-logo {
   width: 20%;
   position: absolute;
   top: 20%;
-  right: 70px; }
+  right: 4%; }
 
 .sun {
   width: 250px;
@@ -859,11 +859,11 @@ a > .fa-twitter:hover {
   position: absolute;
   margin-top: 50;
   margin-left: 100px;
-  width: 73px;
-  height: 74px;
-  -webkit-animation: myfirst 4s linear 2s infinite alternate;
+  width: 75px;
+  height: auto;
+  -webkit-animation: myfirst 5s linear 2s infinite alternate;
   /* Safari 4.0 - 8.0 */
-  animation: myfirst 4s linear 2s infinite alternate; }
+  animation: myfirst 5s linear 2s infinite alternate; }
 
 #sixth-section img {
   width: 100px; }
@@ -967,30 +967,29 @@ a > .fa-twitter:hover {
     left: 250px; }
   100% {
     left: 300px; } }
-/* Safari 4.0 - 8.0 */
 @-webkit-keyframes myfirst {
   0% {
-    top: 100px; }
+    top: 30%; }
   25% {
-    top: 150px; }
+    top: 34%; }
   50% {
-    top: 250px; }
+    top: 38%; }
   75% {
-    top: 350px; }
+    top: 42%; }
   100% {
-    top: 400px; } }
+    top: 46%; } }
 /* Standard syntax */
 @keyframes myfirst {
   0% {
-    top: 100px; }
+    top: 30%; }
   25% {
-    top: 150px; }
+    top: 34%; }
   50% {
-    top: 250px; }
+    top: 38%; }
   75% {
-    top: 350px; }
+    top: 42%; }
   100% {
-    top: 400px; } }
+    top: 46%; } }
 .show-480, .show-375 {
   display: none; }
 
@@ -1002,7 +1001,7 @@ a > .fa-twitter:hover {
     left: -10%; }
 
   #hero-section .content > img {
-    width: 18%;
+    width: 250px;
     padding-top: 10px; }
 
   #hero-section .content .fle figure {
@@ -1045,13 +1044,10 @@ a > .fa-twitter:hover {
 
   #fourth-section .text {
     bottom: 10%;
-    width: 40%; } }
-  .balon {
-    position: absolute;
-    margin-top: 50;
-    margin-left: 100px;
-    width: 70px;
-    height: 69px; }
+    width: 54%; }
+
+  #fifth-section h1 {
+    font-size: 4.5em; } }
 @media screen and (max-width: 990px) {
   .big-semnas {
     display: grid;
@@ -1082,42 +1078,33 @@ a > .fa-twitter:hover {
   .balon {
     position: absolute;
     margin-top: 50;
-    margin-left: 75px;
-    width: 65px;
-    height: 66px; } }
+    margin-left: 35px;
+    width: 55px;
+    height: auto; }
+
   @-webkit-keyframes myfirst {
-  0% {
-    top: 24%;
-  }
-  25% {
-      top: 28%;
-  }
-  50% {
-      top: 32%;
-  }
-  75% {
-      top: 36%;
-  }
-  100% {
-      top: 40%;
-  } }
-/* Standard syntax */
-@keyframes myfirst {
-  0% {
-    top: 24%;
-  }
-  25% {
-      top: 28%;
-  }
-  50% {
-      top: 32%;
-  }
-  75% {
-      top: 36%;
-  }
-  100% {
-      top: 40%;
-  } }
+    0% {
+      top: 30%; }
+    25% {
+      top: 34%; }
+    50% {
+      top: 38%; }
+    75% {
+      top: 42%; }
+    100% {
+      top: 46%; } }
+  /* Standard syntax */
+  @keyframes myfirst {
+    0% {
+      top: 30%; }
+    25% {
+      top: 34%; }
+    50% {
+      top: 38%; }
+    75% {
+      top: 42%; }
+    100% {
+      top: 46%; } } }
 @media screen and (max-width: 768px) {
   .baby-big {
     font-size: 1em; }
@@ -1132,7 +1119,7 @@ a > .fa-twitter:hover {
     width: 120px; }
 
   #hero-section .content > img {
-    width: 30%; }
+    width: 240px; }
 
   #second-section .text {
     width: 50%;
@@ -1211,13 +1198,22 @@ a > .fa-twitter:hover {
     100% {
       left: 5%; } }
   #fourth-section h1 {
-    font-size: 2.8em; }
+    font-size: 2.7em;
+    padding-top: 85px; }
+
+  #fourth-section .content .text, #fourth-section .content .four {
+    order: 3;
+    font-size: 0.9em;
+    padding: 0 45px;
+    position: initial;
+    text-align: center;
+    width: 100%; }
 
   #icpc-logo {
     width: 150px;
     position: absolute;
     transform: translateX(-50%);
-    top: 10%;
+    top: 8%;
     left: 50%; }
 
   .big-semnas {
@@ -1226,6 +1222,9 @@ a > .fa-twitter:hover {
     grid-template-rows: auto;
     max-width: 485px;
     margin: 0 auto; }
+
+  #fifth-section h1 {
+    font-size: 3.5em; }
 
   .big-semnas h1 {
     font-size: 4em;
@@ -1237,10 +1236,10 @@ a > .fa-twitter:hover {
     grid-column: 2/4; }
 
   .three img {
-    width: 180px;
+    width: 175px;
     position: absolute;
-    left: 10%;
-    top: 16%; }
+    top: 12%;
+    left: 5%; }
 
   .four {
     grid-column: 1/5; }
@@ -1248,9 +1247,51 @@ a > .fa-twitter:hover {
   /*styling balon*/
   .balon {
     position: absolute;
-    margin-top: 50;
-    margin-left: 35px;
-  } }
+    margin-top: 30;
+    margin-left: 35px; } }
+@media screen and (max-width: 630px) {
+  #fifth-section h1 {
+    font-size: 3em;
+    padding-left: 85px; }
+
+  #fifth-section .four .text-center {
+    padding: 0 20px; }
+
+  .three img {
+    width: 145px;
+    position: absolute;
+    top: 12%;
+    left: 5px; }
+
+  /*styling balon*/
+  .balon {
+    position: absolute;
+    margin-top: 30;
+    margin-left: 6px; }
+
+  @-webkit-keyframes myfirst {
+    0% {
+      top: 30%; }
+    25% {
+      top: 34%; }
+    50% {
+      top: 38%; }
+    75% {
+      top: 40%; }
+    100% {
+      top: 42%; } }
+  /* Standard syntax */
+  @keyframes myfirst {
+    0% {
+      top: 30%; }
+    25% {
+      top: 34%; }
+    50% {
+      top: 38%; }
+    75% {
+      top: 40%; }
+    100% {
+      top: 42%; } } }
 @media screen and (max-width: 480px) {
   .show-480 {
     display: block; }
@@ -1273,7 +1314,7 @@ a > .fa-twitter:hover {
   #hero-section .content {
     padding: 0 30px; }
     #hero-section .content > img {
-      width: 40%; }
+      width: 220px; }
     #hero-section .content p {
       font-size: 0.8em;
       padding-left: 0;
@@ -1391,12 +1432,35 @@ a > .fa-twitter:hover {
   #fifth-section .three {
     margin: 10px 0 20px; }
 
+  @-webkit-keyframes myfirst {
+    0% {
+      top: 30%; }
+    25% {
+      top: 34%; }
+    50% {
+      top: 38%; }
+    75% {
+      top: 42%; }
+    100% {
+      top: 46%; } }
+  /* Standard syntax */
+  @keyframes myfirst {
+    0% {
+      top: 30%; }
+    25% {
+      top: 34%; }
+    50% {
+      top: 38%; }
+    75% {
+      top: 42%; }
+    100% {
+      top: 46%; } }
   .balon {
     position: absolute;
     margin-top: 50;
     margin-left: 10px;
-    width: 55px;
-    height: 56px; }
+    width: 40px;
+    height: auto; }
 
   #sixth-section .content .fle-center {
     flex-direction: column; }
@@ -1413,5 +1477,44 @@ a > .fa-twitter:hover {
     bottom: 30px;
     left: 30px;
     position: absolute; } }
+@media screen and (max-width: 320px) {
+  .somewhat-bigger {
+    font-size: 1.2em; }
+
+  #fourth-section h1, #fifth-section h1 {
+    font-size: 1.2em; } }
+@media screen and (min-height: 1024px) {
+  body {
+    font-size: 1.3em; }
+
+  #second-section .text {
+    width: 65%; }
+
+  #third-section .text {
+    width: 65%; }
+
+  #fourth-section .text {
+    width: 65%; }
+
+  #wdc-logo {
+    width: 35%; }
+
+  #madc-logo {
+    width: 25%; }
+
+  #icpc-logo {
+    width: 30%; } }
+@media screen and (min-height: 1366px) {
+  body {
+    font-size: 1.5em; }
+
+  #third-section .text {
+    bottom: 20%; }
+
+  #fifth-section .four .text-center {
+    margin-top: 50px; }
+
+  #madc-logo {
+    top: 15%; } }
 
 /*# sourceMappingURL=vocom-soon-style.css.map */

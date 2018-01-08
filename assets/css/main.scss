@@ -93,7 +93,7 @@
 // ---------------------------------------- common style
 body {
   box-sizing: border-box;
-  font-family: 'Fira-Regular';
+  font-family: 'Fira-Regular',sans-serif;
   font-size: 16px;
   margin: 0;
   padding: 0;
@@ -263,9 +263,9 @@ a>.fa-twitter:hover {
       padding-left: 30px;
       padding-right: 30px;
     }
-    
+
     &>img {
-      width: 15%;
+      width: 250px;
     }
 
     .fle {
@@ -338,7 +338,7 @@ a>.fa-twitter:hover {
   text-align: right;
   width:35%;
   position: absolute;
-  bottom: 20%;
+  bottom: 15%;
   right: 40px;
   margin: 0;
   z-index: 2;
@@ -361,14 +361,14 @@ a>.fa-twitter:hover {
   padding-left: 30px;
   width:35%;
   position: absolute;
-  bottom: 15%;
+  bottom: 12%;
   left: 50px;
 }
 #icpc-logo {
     width: 20%;
     position: absolute;
     top: 20%;
-    right: 70px;
+    right: 4%;
 }
 // =============== fifth-section
 .sun {
@@ -414,7 +414,7 @@ a>.fa-twitter:hover {
 	margin-top: 50;
 	margin-left: 100px;
 	width: 75px;
-	height: 106px;
+	height: auto;
 	-webkit-animation: myfirst 5s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
     animation: myfirst 5s linear 2s infinite alternate;
 }

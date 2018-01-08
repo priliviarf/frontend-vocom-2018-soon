@@ -11,7 +11,7 @@
   }
   // ------------------------------ HERO SECTION
   #hero-section .content > img {
-       width: 18%;
+       width: 250px;
        padding-top: 10px;
      }
   #hero-section .content .fle figure {
@@ -60,9 +60,11 @@
   #fourth-section {
     .text {
       bottom: 10%;
-      width: 40%;
+      width: 54%;
     }
   }
+  #fifth-section h1 {
+  font-size: 4.5em; }
 }
 
 @media screen and (max-width: 990px) {
@@ -98,8 +100,41 @@
     margin-top: 50;
     margin-left: 35px;
     width: 55px;
-    height: 76px;
+    height: auto;
   }
+  @-webkit-keyframes myfirst {
+	  0% {
+	    top: 30%;
+	  }
+	  25% {
+	      top: 34%;
+	  }
+	  50% {
+	      top: 38%;
+	  }
+	  75% {
+	      top: 42%;
+	  }
+	  100% {
+	      top: 46%;
+	  } }
+	/* Standard syntax */
+	@keyframes myfirst {
+	  0% {
+	    top: 30%;
+	  }
+	  25% {
+	      top: 34%;
+	  }
+	  50% {
+	      top: 38%;
+	  }
+	  75% {
+	      top: 42%;
+	  }
+	  100% {
+	      top: 46%;
+	  } }
 }
 
 @media screen and (max-width: 768px) {
@@ -118,7 +153,7 @@
     width: 120px;
   }
   #hero-section .content > img {
-     width: 30%;}
+     width: 240px;}
   // --------------------------- second-section
   #second-section .text {
     width: 50%;
@@ -204,14 +239,22 @@
   // ---------------------------- fourth-section
   #fourth-section {
     h1 {
-      font-size: 2.8em;
+      font-size: 2.7em;
+ 	    padding-top: 85px;
     }
   }
+  #fourth-section .content .text, #fourth-section .content .four{
+    order: 3;
+    font-size: 0.9em;
+    padding: 0 45px;
+    position: initial;
+    text-align: center;
+    width: 100%; }
   #icpc-logo {
     width: 150px;
     position: absolute;
     transform: translateX(-50%);
-    top: 10%;
+    top: 8%;
     left: 50%;
   }
   // ----------------------------- fifth-section
@@ -221,6 +264,9 @@
     grid-template-rows: auto;
     max-width: 485px;
     margin: 0 auto;
+  }
+  #fifth-section h1 {
+    font-size: 3.5em;
   }
   .big-semnas h1{
     font-size: 4em;
@@ -232,10 +278,10 @@
     grid-column: 2/4;
   }
   .three img {
-    width: 180px;
+    width: 175px;
     position: absolute;
-    left: 10%;
-    top: 16%;
+    top: 12%;
+    left: 5%;
   }
   .four {
     grid-column: 1/5;
@@ -243,13 +289,66 @@
   /*styling balon*/
   .balon{
     position: absolute;
-    margin-top: 50;
+    margin-top: 30;
     margin-left: 35px;
-    width: 55px;
-    height: 76px;
   }
 }
 
+@media screen and (max-width: 630px) {
+  // ----------------------------- fifth-section
+  #fifth-section h1 {
+    font-size: 3em;
+    padding-left: 85px;
+  }
+  #fifth-section .four .text-center {
+    padding : 0 20px;
+  }
+  .three img {
+    width: 145px;
+    position: absolute;
+    top: 12%;
+    left: 5px;
+  }
+  /*styling balon*/
+  .balon{
+    position: absolute;
+    margin-top: 30;
+    margin-left: 6px;
+  }
+  @-webkit-keyframes myfirst {
+    0% {
+      top: 30%;
+    }
+    25% {
+        top: 34%;
+    }
+    50% {
+        top: 38%;
+    }
+    75% {
+        top: 40%;
+    }
+    100% {
+        top: 42%;
+    } }
+  /* Standard syntax */
+  @keyframes myfirst {
+    0% {
+      top: 30%;
+    }
+    25% {
+        top: 34%;
+    }
+    50% {
+        top: 38%;
+    }
+    75% {
+        top: 40%;
+    }
+    100% {
+        top: 42%;
+    } }
+}
 @media screen and (max-width: 480px) {
   .show-480 {
     display: block;
@@ -275,7 +374,7 @@
         padding: 0 30px;
 
         &>img {
-          width: 40%;
+          width: 220px;
         }
         p {
           font-size: 0.8em;
@@ -416,13 +515,46 @@
       margin: 10px 0 20px;
     }
   }
+  @-webkit-keyframes myfirst {
+  0% {
+    top: 30%;
+  }
+  25% {
+      top: 34%;
+  }
+  50% {
+      top: 38%;
+  }
+  75% {
+      top: 42%;
+  }
+  100% {
+      top: 46%;
+  } }
+/* Standard syntax */
+@keyframes myfirst {
+  0% {
+    top: 30%;
+  }
+  25% {
+      top: 34%;
+  }
+  50% {
+      top: 38%;
+  }
+  75% {
+      top: 42%;
+  }
+  100% {
+      top: 46%;
+  } }
   // ------------------------------- fifth-section
   .balon{
     position: absolute;
     margin-top: 50;
     margin-left: 10px;
     width: 40px;
-    height: 56px;
+    height: auto;
   }
 
   // ------------------------------- last-section
@@ -460,5 +592,52 @@
     h1 {
       font-size: 1.2em;
     }
+  }
+}
+
+// for ipad
+@media screen and (min-height: 1024px){
+  body {
+    font-size: 1.3em;
+  }
+
+  #second-section .text {
+    width: 65%;
+  }
+
+  #third-section .text {
+    width: 65%;
+  }
+
+  #fourth-section .text {
+    width: 65%;
+  }
+
+  #wdc-logo {
+    width: 35%;
+  }
+  #madc-logo {
+    width: 25%;
+  }
+  #icpc-logo {
+    width: 30%;
+  }
+}
+
+@media screen and (min-height: 1366px){
+  body {
+    font-size: 1.5em;
+  }
+
+  #third-section .text {
+    bottom: 20%;
+  }
+
+  #fifth-section .four .text-center {
+    margin-top: 50px;
+  }
+
+  #madc-logo {
+    top: 15%;
   }
 }
