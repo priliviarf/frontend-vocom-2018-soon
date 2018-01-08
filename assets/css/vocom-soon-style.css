@@ -948,29 +948,7 @@ a > .fa-twitter:hover {
   to {
     left: 100%; } }
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes sun {
-  0% {
-    left: 50px; }
-  25% {
-    left: 150px; }
-  50% {
-    left: 200px; }
-  75% {
-    left: 250px; }
-  100% {
-    left: 300px; } }
-/* Standard syntax */
-@keyframes sun {
-  0% {
-    left: 50px; }
-  25% {
-    left: 150px; }
-  50% {
-    left: 200px; }
-  75% {
-    left: 250px; }
-  100% {
-    left: 300px; } }
+
 @-webkit-keyframes myfirst {
   0% {
     top: 30%; }
@@ -1555,4 +1533,7 @@ a > .fa-twitter:hover {
   #madc-logo {
     top: 15%; } }
 
+.hidden {
+  display: none;
+}
 /*# sourceMappingURL=vocom-soon-style.css.map */
