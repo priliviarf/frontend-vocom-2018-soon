@@ -1,0 +1,45 @@
+@media screen and (min-height: 1024px){
+  body {
+    font-size: 1.3em;
+  }
+
+  #second-section .text {
+    width: 65%;
+  }
+
+  #third-section .text {
+    width: 65%;
+  }
+
+  #fourth-section .text {
+    width: 65%;
+  }
+
+  #wdc-logo {
+    width: 35%;
+  }
+  #madc-logo {
+    width: 25%;
+  }
+  #icpc-logo {
+    width: 30%;
+  }
+}
+
+@media screen and (min-height: 1366px){
+  body {
+    font-size: 1.5em;
+  }
+
+  #third-section .text {
+    bottom: 20%;
+  }
+
+  #fifth-section .four .text-center {
+    margin-top: 50px;
+  }
+
+  #madc-logo {
+    top: 15%;
+  }
+}
