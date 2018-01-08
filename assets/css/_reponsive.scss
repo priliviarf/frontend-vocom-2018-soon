@@ -292,6 +292,49 @@
     margin-top: 30;
     margin-left: 35px;
   }
+  @-webkit-keyframes myfirst {
+  0% {
+    left: 8%;
+    top: 14%;
+  }
+  25% {
+      left: 12%;
+      top: 14%;
+  }
+  50% {
+      left: 16%;
+      top: 14%;
+  }
+  75% {
+      left: 20%;
+      top: 14%;
+  }
+  100% {
+      left: 22%;
+      top: 14%;
+  } }
+/* Standard syntax */
+@keyframes myfirst {
+  0% {
+    left: 8%;
+    top: 14%;
+  }
+  25% {
+      left: 12%;
+      top: 14%;
+  }
+  50% {
+      left: 16%;
+      top: 14%;
+  }
+  75% {
+      left: 20%;
+      top: 14%;
+  }
+  100% {
+      left: 22%;
+      top: 14%;
+  } }
 }
 
 @media screen and (max-width: 630px) {
