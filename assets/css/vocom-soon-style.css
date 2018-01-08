@@ -10,32 +10,32 @@
   font-family: 'Montserrat-Regular';
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/Montserrat-Regular.ttf") format("truetype"); }
+  src: url("../fonts/montserrat-regular-webfont.woff") format("woff"), url("../fonts/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/Montserrat-Regular.ttf") format("truetype"); }
 @font-face {
   font-family: 'Montserrat-Bold';
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/Montserrat-Bold.ttf") format("truetype"); }
+  src: url("../fonts/montserrat-bold-webfont.woff") format("woff"), url("../fonts/montserrat-bold-webfont.woff2") format("woff2"), url("../fonts/Montserrat-Bold.ttf") format("truetype"); }
 @font-face {
   font-family: 'Fira-Black';
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/FiraSans-Black.ttf") format("truetype"); }
+  src: url("../fonts/firasans-black-webfont.woff") format("woff"), url("../fonts/firasans-black-webfont.woff2") format("woff2"), url("../fonts/FiraSans-Black.ttf") format("truetype"); }
 @font-face {
   font-family: 'Fira-Bold';
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/FiraSans-Bold.ttf") format("truetype"); }
+  src: url("../fonts/firasans-bold-webfont.woff") format("woff"), url("../fonts/firasans-bold-webfont.woff2") format("woff2"), url("../fonts/FiraSans-Bold.ttf") format("truetype"); }
 @font-face {
   font-family: 'Fira-Regular';
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/FiraSans-Regular.ttf") format("truetype"); }
+  src: url("../fonts/firasans-regular-webfont.woff") format("woff"), url("../fonts/firasans-regular-webfont.woff2") format("woff2"), url("../fonts/FiraSans-Regular.ttf") format("truetype"); }
 @font-face {
   font-family: 'Fira-Light';
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/FiraSans-Light.ttf") format("truetype"); }
+  src: url("../fonts/firasans-light-webfont.woff") format("woff"), url("../fonts/firasans-light-webfont.woff2") format("woff2"), url("../fonts/FiraSans-Light.ttf") format("truetype"); }
 .bla {
   color: #000; }
 
@@ -552,7 +552,7 @@
 
 body {
   box-sizing: border-box;
-  font-family: 'Fira-Regular';
+  font-family: 'Fira-Regular',sans-serif;
   font-size: 16px;
   margin: 0;
   padding: 0; }
@@ -784,10 +784,10 @@ a > .fa-twitter:hover {
 #third-section .text {
   padding-right: 30px;
   text-align: right;
-  width: 33%;
+  width: 35%;
   position: absolute;
   bottom: 20%;
-  right: 35px;
+  right: 40px;
   margin: 0;
   z-index: 2; }
 
@@ -805,17 +805,17 @@ a > .fa-twitter:hover {
   right: 30%; }
 
 #fourth-section .text {
-  padding-left: 20px;
+  padding-left: 30px;
   width: 35%;
   position: absolute;
-  bottom: 12%;
+  bottom: 15%;
   left: 50px; }
 
 #icpc-logo {
   width: 20%;
   position: absolute;
   top: 20%;
-  right: 4%; }
+  right: 70px; }
 
 .sun {
   width: 250px;
@@ -859,14 +859,12 @@ a > .fa-twitter:hover {
   position: absolute;
   margin-top: 50;
   margin-left: 100px;
-  width: 73px;
-  height: 74px;
-  z-index: 1;
-  -webkit-animation: myfirst 4s linear 2s infinite alternate;
+  width: 75px;
+  height: 106px;
+  -webkit-animation: myfirst 5s linear 2s infinite alternate;
   /* Safari 4.0 - 8.0 */
-  animation: myfirst 4s linear 2s infinite alternate; }
-#fifth-section .ball {
-    z-index: 10; }
+  animation: myfirst 5s linear 2s infinite alternate; }
+
 #sixth-section img {
   width: 100px; }
 
@@ -972,43 +970,34 @@ a > .fa-twitter:hover {
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes myfirst {
   0% {
-    top: 30%;
-  }
+    top: 100px; }
   25% {
-      top: 34%;
-  }
+    top: 150px; }
   50% {
-      top: 38%;
-  }
+    top: 250px; }
   75% {
-      top: 42%;
-  }
+    top: 350px; }
   100% {
-      top: 46%;
-  } }
+    top: 400px; } }
 /* Standard syntax */
 @keyframes myfirst {
   0% {
-    top: 30%;
-  }
+    top: 100px; }
   25% {
-      top: 34%;
-  }
+    top: 150px; }
   50% {
-      top: 38%;
-  }
+    top: 250px; }
   75% {
-      top: 42%;
-  }
+    top: 350px; }
   100% {
-      top: 46%;
-  } }
+    top: 400px; } }
 .show-480, .show-375 {
   display: none; }
 
 @media screen and (max-width: 1024px) {
   .somewhat-bigger {
     font-size: 3.5em; }
+
   .mo-plane {
     left: -10%; }
 
@@ -1056,15 +1045,7 @@ a > .fa-twitter:hover {
 
   #fourth-section .text {
     bottom: 10%;
-    width: 54%; }
-  #fifth-section h1 {
-    font-size: 4.5em; }
-  .balon {
-    position: absolute;
-    margin-top: 50;
-    margin-left: 100px;
-    width: 70px;
-    height: 69px; } }
+    width: 40%; } }
 @media screen and (max-width: 990px) {
   .big-semnas {
     display: grid;
@@ -1095,10 +1076,9 @@ a > .fa-twitter:hover {
   .balon {
     position: absolute;
     margin-top: 50;
-    margin-left: 75px;
-    width: 65px;
-    height: 66px; } }
-  
+    margin-left: 35px;
+    width: 55px;
+    height: 76px; } }
 @media screen and (max-width: 768px) {
   .baby-big {
     font-size: 1em; }
@@ -1191,31 +1171,14 @@ a > .fa-twitter:hover {
       left: 20%; }
     100% {
       left: 5%; } }
-  #fourth-section .content .text, #fourth-section .content .four{
-      order: 3;
-      font-size: 0.9em;
-      padding: 0 45px;
-      position: initial;
-      text-align: center;
-      width: 100%; }
-  #fourth-section .content{
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center; }
   #fourth-section h1 {
-    font-size: 2.7em;
-    padding-top: 85px;  }
+    font-size: 2.8em; }
 
   #icpc-logo {
     width: 150px;
     position: absolute;
     transform: translateX(-50%);
-    top: 8%;
+    top: 10%;
     left: 50%; }
 
   .big-semnas {
@@ -1246,54 +1209,10 @@ a > .fa-twitter:hover {
   /*styling balon*/
   .balon {
     position: absolute;
-    margin-top: 30;
+    margin-top: 50;
     margin-left: 35px;
-  }
-
-  @-webkit-keyframes myfirst {
-  0% {
-    left: 8%;
-    top: 14%;
-  }
-  25% {
-      left: 12%;
-      top: 14%;
-  }
-  50% {
-      left: 16%;
-      top: 14%;
-  }
-  75% {
-      left: 20%;
-      top: 14%;
-  }
-  100% {
-      left: 22%;
-      top: 14%;
-  } }
-/* Standard syntax */
-@keyframes myfirst {
-  0% {
-    left: 8%;
-    top: 14%;
-  }
-  25% {
-      left: 12%;
-      top: 14%;
-  }
-  50% {
-      left: 16%;
-      top: 14%;
-  }
-  75% {
-      left: 20%;
-      top: 14%;
-  }
-  100% {
-      left: 22%;
-      top: 14%;
-  } }
-}
+    width: 55px;
+    height: auto; } }
 @media screen and (max-width: 480px) {
   .show-480 {
     display: block; }
@@ -1438,46 +1357,13 @@ a > .fa-twitter:hover {
     position: absolute;
     margin-top: 50;
     margin-left: 10px;
-    width: 55px;
+    width: 40px;
     height: 56px; }
-  @-webkit-keyframes myfirst {
-  0% {
-    top: 30%;
-  }
-  25% {
-      top: 34%;
-  }
-  50% {
-      top: 38%;
-  }
-  75% {
-      top: 42%;
-  }
-  100% {
-      top: 46%;
-  } }
-/* Standard syntax */
-@keyframes myfirst {
-  0% {
-    top: 30%;
-  }
-  25% {
-      top: 34%;
-  }
-  50% {
-      top: 38%;
-  }
-  75% {
-      top: 42%;
-  }
-  100% {
-      top: 46%;
-  } }
+
   #sixth-section .content .fle-center {
     flex-direction: column; }
   #sixth-section .content .mg-l-40 {
     margin: 20px 0 0 0; } }
-
 @media screen and (max-width: 375px) {
   .hidden-375 {
     display: none; }
@@ -1489,5 +1375,44 @@ a > .fa-twitter:hover {
     bottom: 30px;
     left: 30px;
     position: absolute; } }
+@media screen and (max-width: 320px) {
+  .somewhat-bigger {
+    font-size: 1.2em; }
+
+  #fourth-section h1, #fifth-section h1 {
+    font-size: 1.2em; } }
+@media screen and (min-height: 1024px) {
+  body {
+    font-size: 1.3em; }
+
+  #second-section .text {
+    width: 65%; }
+
+  #third-section .text {
+    width: 65%; }
+
+  #fourth-section .text {
+    width: 65%; }
+
+  #wdc-logo {
+    width: 35%; }
+
+  #madc-logo {
+    width: 25%; }
+
+  #icpc-logo {
+    width: 30%; } }
+@media screen and (min-height: 1366px) {
+  body {
+    font-size: 1.5em; }
+
+  #third-section .text {
+    bottom: 20%; }
+
+  #fifth-section .four .text-center {
+    margin-top: 50px; }
+
+  #madc-logo {
+    top: 15%; } }
 
 /*# sourceMappingURL=vocom-soon-style.css.map */

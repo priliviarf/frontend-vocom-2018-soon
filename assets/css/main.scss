@@ -93,7 +93,7 @@
 // ---------------------------------------- common style
 body {
   box-sizing: border-box;
-  font-family: 'Fira-Regular';
+  font-family: 'Fira-Regular',sans-serif;
   font-size: 16px;
   margin: 0;
   padding: 0;
@@ -263,7 +263,7 @@ a>.fa-twitter:hover {
       padding-left: 30px;
       padding-right: 30px;
     }
-    
+
     &>img {
       width: 15%;
     }

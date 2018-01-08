@@ -3,37 +3,54 @@
   font-family: 'Montserrat-Regular';
   font-style: normal;
   font-weight: normal;
-  src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+  src: url('../fonts/montserrat-regular-webfont.woff') format('woff'),
+  url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+  url('../fonts/Montserrat-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Montserrat-Bold';
   font-style: normal;
   font-weight: normal;
-  src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+  src:
+  url('../fonts/montserrat-bold-webfont.woff') format('woff'),
+  url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
+  url('../fonts/Montserrat-Bold.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Fira-Black';
   font-style: normal;
   font-weight: normal;
-  src: url('../fonts/FiraSans-Black.ttf') format('truetype');
+  src:
+  url('../fonts/firasans-black-webfont.woff') format('woff'),
+  url('../fonts/firasans-black-webfont.woff2') format('woff2'),
+  url('../fonts/FiraSans-Black.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Fira-Bold';
   font-style: normal;
   font-weight: normal;
-  src: url('../fonts/FiraSans-Bold.ttf') format('truetype');
+  src:
+  url('../fonts/firasans-bold-webfont.woff') format('woff'),
+  url('../fonts/firasans-bold-webfont.woff2') format('woff2'),
+  url('../fonts/FiraSans-Bold.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Fira-Regular';
   font-style: normal;
   font-weight: normal;
-  src: url('../fonts/FiraSans-Regular.ttf') format('truetype');
+  src:
+  url('../fonts/firasans-regular-webfont.woff') format('woff'),
+  url('../fonts/firasans-regular-webfont.woff2') format('woff2'),
+  url('../fonts/FiraSans-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Fira-Light';
   font-style: normal;
   font-weight: normal;
-  src: url('../fonts/FiraSans-Light.ttf') format('truetype');
+  src:
+  url('../fonts/firasans-light-webfont.woff') format('woff'),
+  url('../fonts/firasans-light-webfont.woff2') format('woff2'), 
+  url('../fonts/FiraSans-Light.ttf') format('truetype');
 }
 // font-color
 .bla {
