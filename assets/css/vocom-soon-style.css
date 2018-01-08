@@ -784,10 +784,10 @@ a > .fa-twitter:hover {
 #third-section .text {
   padding-right: 30px;
   text-align: right;
-  width: 35%;
+  width: 33%;
   position: absolute;
   bottom: 20%;
-  right: 40px;
+  right: 35px;
   margin: 0;
   z-index: 2; }
 
@@ -859,11 +859,11 @@ a > .fa-twitter:hover {
   position: absolute;
   margin-top: 50;
   margin-left: 100px;
-  width: 75px;
-  height: 106px;
-  -webkit-animation: myfirst 5s linear 2s infinite alternate;
+  width: 73px;
+  height: 74px;
+  -webkit-animation: myfirst 4s linear 2s infinite alternate;
   /* Safari 4.0 - 8.0 */
-  animation: myfirst 5s linear 2s infinite alternate; }
+  animation: myfirst 4s linear 2s infinite alternate; }
 
 #sixth-section img {
   width: 100px; }
@@ -1046,6 +1046,12 @@ a > .fa-twitter:hover {
   #fourth-section .text {
     bottom: 10%;
     width: 40%; } }
+  .balon {
+    position: absolute;
+    margin-top: 50;
+    margin-left: 100px;
+    width: 70px;
+    height: 69px; }
 @media screen and (max-width: 990px) {
   .big-semnas {
     display: grid;
@@ -1076,9 +1082,42 @@ a > .fa-twitter:hover {
   .balon {
     position: absolute;
     margin-top: 50;
-    margin-left: 35px;
-    width: 55px;
-    height: 76px; } }
+    margin-left: 75px;
+    width: 65px;
+    height: 66px; } }
+  @-webkit-keyframes myfirst {
+  0% {
+    top: 24%;
+  }
+  25% {
+      top: 28%;
+  }
+  50% {
+      top: 32%;
+  }
+  75% {
+      top: 36%;
+  }
+  100% {
+      top: 40%;
+  } }
+/* Standard syntax */
+@keyframes myfirst {
+  0% {
+    top: 24%;
+  }
+  25% {
+      top: 28%;
+  }
+  50% {
+      top: 32%;
+  }
+  75% {
+      top: 36%;
+  }
+  100% {
+      top: 40%;
+  } }
 @media screen and (max-width: 768px) {
   .baby-big {
     font-size: 1em; }
@@ -1096,6 +1135,7 @@ a > .fa-twitter:hover {
     width: 30%; }
 
   #second-section .text {
+    width: 50%;
     left: 2%;
     top: 15%;
     padding-left: 15px; }
@@ -1143,6 +1183,7 @@ a > .fa-twitter:hover {
   ========third section========
   */
   #third-section .text {
+    width: 50%;
     right: 5%;
     bottom: 10%; }
 
@@ -1209,14 +1250,7 @@ a > .fa-twitter:hover {
     position: absolute;
     margin-top: 50;
     margin-left: 35px;
-    width: 55px;
-    height: 76px; }
-
-  #second-section .text, #third-section .text {
-    width: 65%; }
-
-  #fourth-section .text {
-    width: 80%; } }
+  } }
 @media screen and (max-width: 480px) {
   .show-480 {
     display: block; }
@@ -1361,7 +1395,7 @@ a > .fa-twitter:hover {
     position: absolute;
     margin-top: 50;
     margin-left: 10px;
-    width: 40px;
+    width: 55px;
     height: 56px; }
 
   #sixth-section .content .fle-center {
@@ -1379,11 +1413,5 @@ a > .fa-twitter:hover {
     bottom: 30px;
     left: 30px;
     position: absolute; } }
-@media screen and (max-width: 320px) {
-  .somewhat-bigger {
-    font-size: 1.2em; }
-
-  #fourth-section h1, #fifth-section h1 {
-    font-size: 1.2em; } }
 
 /*# sourceMappingURL=vocom-soon-style.css.map */
