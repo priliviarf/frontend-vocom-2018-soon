@@ -1312,6 +1312,10 @@ a > .fa-twitter:hover {
   .show-480 {
     display: block; }
 
+    .marg-0 {
+      margin: 0;
+    }
+
   .hidden-480 {
     display: none; }
 
