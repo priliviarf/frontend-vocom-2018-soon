@@ -452,3 +452,13 @@
     }
   }
 }
+@media screen and (max-width: 320px) {
+  .somewhat-bigger{
+    font-size: 1.2em;
+  }
+  #fourth-section,#fifth-section {
+    h1 {
+      font-size: 1.2em;
+    }
+  }
+}
